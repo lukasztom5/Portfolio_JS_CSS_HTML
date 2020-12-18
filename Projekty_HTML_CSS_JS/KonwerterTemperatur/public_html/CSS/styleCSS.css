@@ -74,6 +74,7 @@ div#panel_glowny div#panel div div.formularz{
 div#panel_glowny div#panel div div.formularz label{
     font:italic normal bold medium none; 
 }
+
 div#panel_glowny div#panel div div.formularz label input{
     margin:1% 0% 0% 3%;  
     box-sizing: border-box;
@@ -81,7 +82,9 @@ div#panel_glowny div#panel div div.formularz label input{
     padding:3px 3px;
     width:50%;
 }
-
+div#panel_glowny div#panel div div.formularz label input.error{
+    border: 4px solid red;
+}
 div#panel_glowny div#panel div div.formularz label input[type=number]{
     margin:1% 0% 0% 5%;  
     width:50%;
@@ -101,14 +104,12 @@ p.komunikat{
     position: absolute;
     left:10%;
     top:80%;
+    display:none;
     margin:0.5% 1% 0.5% 1%;  
     transform: translate(-10%,-50%);
 }
-p#komunikatOd{
-    display:none;
-}
-p#komunikatDo{
-    display:none;
+.komunikat.error{
+    display:inline;
 }
 div#panel_glowny div#panel div#oblicz {
     display: block;
@@ -145,6 +146,14 @@ div#panel_glowny div#panel div#panelWyniku {
     height: 25%;
     margin:1%;
 }
+div#panel_glowny div#panel div#panelWyniku.error{
+    border: 6px solid red;
+    display: block;
+}
+div#panel_glowny div#panel div#panelWyniku.correct {
+    border: 6px solid green;
+    display: block;
+}
 div#panelWyniku>p{
     font:italic normal bold x-large none; 
     text-transform: uppercase;
@@ -153,5 +162,9 @@ div#panelWyniku>p{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
+}
+div#panelWyniku>p.error{
+    left:10%;
+    transform: translate(-10%,-50%);
 }
 

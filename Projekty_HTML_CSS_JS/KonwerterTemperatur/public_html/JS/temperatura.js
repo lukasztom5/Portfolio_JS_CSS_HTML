@@ -75,13 +75,13 @@ function sprawdzJednostki(wartosc, jednostki) {
         var wynik = document.getElementById("wynik");
         var panelWynikowy = document.getElementById("panelWyniku");
         var optionList = document.getElementsByTagName("option");
-        //ustawianie styli na stworzone w CSS
-        inputOd.style.border="";
-        inputDo.style.border="";
-        wartoscStyle.style.border="";
-        komunikatDo.style.display = "";
-        komunikatOd.style.display = "";
-        panelWynikowy.style.display = "";
+        //czyszczenie klas css dla elementów
+        wartoscStyle.classList.remove('error');
+        panelWynikowy.classList.remove('error','correct');
+        komunikatDo.classList.remove('error');
+        komunikatOd.classList.remove('error');
+        inputOd.classList.remove('error');
+        inputDo.classList.remove('error');
         //tablica wartości elementu DATALIST
         const tablicaOpcji = [];
         for (var o = 0; o < optionList.length; o++) {
@@ -92,17 +92,18 @@ function sprawdzJednostki(wartosc, jednostki) {
             if (tablicaOpcji.indexOf(jednostkaOd) !== -1) {
                 if (tablicaOpcji.indexOf(jednostkaDo) !== -1) {
                     if (jednostkaOd === jednostkaDo) {
-                        panelWynikowy.style.display = "block";
-                        inputOd.style.border="4px solid red";
-                        inputDo.style.border="4px solid red";
+                        //dodanie klasy do elementu z własnościami CSS
+                        panelWynikowy.classList.add('error');
+                        inputOd.classList.add('error');
+                        inputDo.classList.add('error');
                         wynik.innerHTML = "Jednostka wejściowa jest taka sama jak wyjściowa";
                     } else {
                         //przejsćie do przeliczania wartości
                         przeliczTemperature(wartosc, jednostkaOd, jednostkaDo);
                     }
                 } else {
-                    komunikatDo.style.display = "inline";
-                    inputDo.style.border="4px solid red";
+                    komunikatDo.classList.add('error');
+                    inputDo.classList.add('error');
                     if (jednostkaDo === "") {
                         komunikatDo.innerHTML = "Brak jednostki wyjściowej";
                     } else {
@@ -111,43 +112,43 @@ function sprawdzJednostki(wartosc, jednostki) {
                 }
             } else {
                 if (jednostkaOd === "") {
-                    inputOd.style.border="4px solid red";
+                    inputOd.classList.add('error');
                     if (tablicaOpcji.indexOf(jednostkaDo) !== -1) {
-                        komunikatOd.style.display = "inline";
+                        komunikatOd.classList.add('error');
                         komunikatOd.innerHTML = "Brak jednostki wejściowej";  
                     } else {
-                        inputDo.style.border="4px solid red";
+                        inputDo.classList.add('error');
                         if (jednostkaDo === "") {
-                            panelWynikowy.style.display = "block";
+                            panelWynikowy.classList.add('error');
                             wynik.innerHTML = "Brak jednostki wejściowej i wyjściowej";
                         } else {
-                            komunikatDo.style.display = "inline";
+                            komunikatDo.classList.add('error');
                             komunikatDo.innerHTML = "Nieprawidłowa jednostka: " + jednostkaDo;
-                            komunikatOd.style.display = "inline";
+                            komunikatOd.classList.add('error');
                             komunikatOd.innerHTML = "Brak jednostki wejściowej"; 
                         }
                     }
                 } else {
-                    inputOd.style.border="4px solid red";
+                    inputOd.classList.add('error');
                     if (tablicaOpcji.indexOf(jednostkaDo) !== -1) {
-                        komunikatOd.style.display = "inline";
+                        komunikatOd.classList.add('error');
                         komunikatOd.innerHTML = "Nieprawidłowa jednostka: " + jednostkaOd;
                     } else {
-                        inputDo.style.border="4px solid red";
+                        inputDo.classList.add('error');
                         if (jednostkaDo === "") {
-                            komunikatOd.style.display = "inline";
+                            komunikatOd.classList.add('error');
                             komunikatOd.innerHTML = "Nieprawidłowa jednostka: " + jednostkaOd;
-                            komunikatDo.style.display = "inline";
-                            komunikatDo.innerHTML = "Brak jednostki wejściowej"; 
+                            komunikatDo.classList.add('error');
+                            komunikatDo.innerHTML = "Brak jednostki wyjściowej"; 
                         } else {
                             if(jednostkaOd===jednostkaDo){
-                                panelWynikowy.style.display = "block";
+                                panelWynikowy.classList.add('error');
                                 wynik.innerHTML = "Nieprawidłowa jednostka wejściowa i wyjściowa: "+ jednostkaOd;
                             }
                             else{
-                                komunikatDo.style.display = "inline";
+                                komunikatDo.classList.add('error');
                                 komunikatDo.innerHTML = "Nieprawidłowa jednostka: " + jednostkaDo;
-                                komunikatOd.style.display = "inline";
+                                komunikatOd.classList.add('error');
                                 komunikatOd.innerHTML = "Nieprawidłowa jednostka: " + jednostkaOd;
                             }
                         }
@@ -156,22 +157,22 @@ function sprawdzJednostki(wartosc, jednostki) {
 
             }
         } else {
-            wartoscStyle.style.border="4px solid red";
+            wartoscStyle.classList.add('error');
             if (tablicaOpcji.indexOf(jednostkaOd) !== -1) {
-                komunikatOd.style.display = "inline";
+                komunikatOd.classList.add('error');
                 komunikatOd.innerHTML = "Brak wartości do przeliczenia";
                 if (tablicaOpcji.indexOf(jednostkaDo) !== -1) {
                     if (jednostkaOd === jednostkaDo) {
-                        panelWynikowy.style.display = "block";
+                        panelWynikowy.classList.add('error');
                         wynik.innerHTML = "Jednostka wejściowa jest taka sama jak wyjściowa";
-                        inputDo.style.border="4px solid red";
-                        inputOd.style.border="4px solid red";
+                        inputDo.classList.add('error');
+                        inputOd.classList.add('error');
                     } else {
-                        wartoscStyle.style.border="4px solid red";
+                        wartoscStyle.classList.add('error');
                     }
                 } else {
-                    komunikatDo.style.display = "inline";
-                    inputDo.style.border="4px solid red";
+                    komunikatDo.classList.add('error');
+                    inputDo.classList.add('error');
                     if (jednostkaDo === "") {
                         komunikatDo.innerHTML = "Brak jednostki wyjściowej";
                     } else {
@@ -180,39 +181,39 @@ function sprawdzJednostki(wartosc, jednostki) {
                 }
             } else {
                 if (jednostkaOd === "") {
-                    komunikatOd.style.display = "inline";
-                    inputOd.style.border="4px solid red";
+                    komunikatOd.classList.add('error');
+                    inputOd.classList.add('error');
                     if (tablicaOpcji.indexOf(jednostkaDo) !== -1) {
                         komunikatOd.innerHTML = "Brak wartości do przeliczenia i jednostki wejściowej";
                     } else {
-                        inputOd.style.border="4px solid red";
-                        inputDo.style.border="4px solid red";
+                        inputOd.classList.add('error');
+                        inputDo.classList.add('error');
                         if (jednostkaDo === "") {
                             komunikatOd.innerHTML = "Brak wartości do przeliczenia";
-                            panelWynikowy.style.display = "block";
+                            panelWynikowy.classList.add('error');
                             wynik.innerHTML = "Brak jednostki wejściowej i wyjściowej";
                             
                         } else {
-                            komunikatDo.style.display = "inline";
+                            komunikatDo.classList.add('error');
                             komunikatDo.innerHTML = "Nieprawidłowa jednostka: " + jednostkaDo;
                             komunikatOd.innerHTML = "Brak wartości do przeliczenia i jednostki wejściowej";
                         }
                     }
                 } else {
-                    komunikatOd.style.display = "inline";
-                    inputOd.style.border="4px solid red";
+                    komunikatOd.classList.add('error');
+                    inputOd.classList.add('error');
                     if (tablicaOpcji.indexOf(jednostkaDo) !== -1) {
                         komunikatOd.innerHTML = "Brak wartości do przeliczenia i nieprawidłowa jednostka: " + jednostkaOd; 
                     } else {
-                        komunikatDo.style.display = "inline";
-                        inputDo.style.border="4px solid red";
+                        komunikatDo.classList.add('error');
+                        inputDo.classList.add('error');
                         if (jednostkaDo === "") {
                             komunikatOd.innerHTML = "Brak wartości do przeliczenia i nieprawidłowa jednostka: " + jednostkaOd;
-                            komunikatDo.innerHTML = "Brak jednostki wejściowej"; 
+                            komunikatDo.innerHTML = "Brak jednostki wyjściowej"; 
                         } else {
                             if(jednostkaOd===jednostkaDo){
                                 komunikatOd.innerHTML = "Brak wartości do przeliczenia";
-                                panelWynikowy.style.display = "block";
+                                panelWynikowy.classList.add('error');
                                 wynik.innerHTML = "Nieprawidłowa jednostka wejściowa i wyjściowa: "+ jednostkaOd;
                             }
                             else{
@@ -235,7 +236,8 @@ function przeliczTemperature(wartosc, jednostkaOd, jednostkaDo) {
     var wartoscStyle = document.getElementById("wartosc");
     var wynik = document.getElementById("wynik");
     var panelWynikowy = document.getElementById("panelWyniku");
-    panelWynikowy.style.display="block";
+    wartoscStyle.classList.remove('error');
+    panelWynikowy.classList.add('correct');
     //dla Celcjuszy
     if (jednostkaWejsciowa.includes("Celcjusz")) {
         if (jednostkaWyjsciowa.includes("Kelvin")) {
@@ -244,9 +246,10 @@ function przeliczTemperature(wartosc, jednostkaOd, jednostkaDo) {
             if (wartoscTemperatury < 0) {
                 //zawartośc z wartością funkcji o błędzie
                 wynik.innerHTML="Dla temperatury "+wartosc+"&degC"+errorKelvin(jednostkaWejsciowa,jednostkaWyjsciowa);
-                wartoscStyle.style.border="4px solid red";
-                wynik.style.left="10%";
-                wynik.style.transform="translate(-10%,-50%)";
+                wartoscStyle.classList.add('error');
+                //usuwanie klasy z elementu
+                panelWynikowy.classList.remove('correct');
+                panelWynikowy.classList.add('error');
             } else {
                 wynik.innerHTML="Zamiana Celcjuszy na Kelviny: "+wartosc+zapiszTemperature(wartoscTemperatury,jednostkaWejsciowa,jednostkaWyjsciowa);
             }
@@ -260,10 +263,11 @@ function przeliczTemperature(wartosc, jednostkaOd, jednostkaDo) {
     else if (jednostkaWejsciowa.includes("Kelvin")) {
         //gdy wartość w Kelvinach jest mniejsza od 0
         if (wartoscTemperatury < 0) {
-            wartoscStyle.style.border="4px solid red";
+            wartoscStyle.classList.add('error');
             wynik.innerHTML=errorKelvin(jednostkaWejsciowa,jednostkaWyjsciowa);
-            wynik.style.left="10%";
-            wynik.style.transform="translate(-10%,-50%)";
+            wynik.classList.add('error');
+            panelWynikowy.classList.remove('correct');
+            panelWynikowy.classList.add('error');
         } else {
             if (jednostkaWyjsciowa.includes("Celcjusz")) {
                 wartoscTemperatury = Math.round(fromKelvinToCelcjusz(wartoscTemperatury)*100)/100;
@@ -283,10 +287,11 @@ function przeliczTemperature(wartosc, jednostkaOd, jednostkaDo) {
             wartoscTemperatury = Math.round(fromFarenheitToKelvin(wartoscTemperatury)*100)/100;
             //gdy wartość w Kelvinach jest mniejsza od 0
             if (wartoscTemperatury < 0) {
-                wartoscStyle.style.border="4px solid red";
+                wartoscStyle.classList.add('error');
                 wynik.innerHTML="Dla temperatury "+wartosc+"&degF"+errorKelvin(jednostkaWejsciowa,jednostkaWyjsciowa);
-                wynik.style.left="10%";
-                wynik.style.transform="translate(-10%,-50%)";
+                wynik.classList.add('error');
+                panelWynikowy.classList.remove('correct');
+                panelWynikowy.classList.add('error');
             } else {
                 wynik.innerHTML="Zamiana Farenheity na Kelviny: "+wartosc+zapiszTemperature(wartoscTemperatury,jednostkaWejsciowa,jednostkaWyjsciowa);
             }
