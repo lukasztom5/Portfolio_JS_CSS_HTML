@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Panel do obliczania oceny ucznia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/styleCSS.css" rel="stylesheet">
+        <script src="JS/dziennik.js"></script>
+    </head>
+    <body>
+        <div id="glownyPanel">
+            <div id="naglowekPanelu">
+                <h1>Panel do obliczania oceny ucznia</h1>
+            </div>
+            <div id="panelFormularza">
+                <h2>Formularz do wstawiania ocen</h2>
+                <div id="formularz">
+                    <div id="kategoria">
+                        <label for="listaKategorii">Rodzaj Oceny:</label>
+                        <select id="listaKategorii" class="selectList">
+                            <option value="wybierzRodzaj">Wybierz rodzaj</option>
+                            <option value="Sprawdzian">Sprawdziany</option>
+                            <option value="Kartkówka">Kartkówki</option>
+                            <option value="Inne">Inne</option>
+                        </select>
+                    </div>
+                    <div id="oceny">    
+                        <label for="listaOcen">Ocena:</label>
+                        <select id="listaOcen" class="selectList">
+                            <option value="wybierzOcene">Wybierz ocenę</option>
+                            <option value="6">6</option>
+                            <option value="5.8">6-</option>
+                            <option value="5.5">5+</option>
+                            <option value="5">5</option>
+                            <option value="4.8">5-</option>
+                            <option value="4.5">4+</option>
+                            <option value="4">4</option>
+                            <option value="3.8">4-</option>
+                            <option value="3.5">3+</option>
+                            <option value="3">3</option>
+                            <option value="2.8">3-</option>
+                            <option value="2.5">2+</option>
+                            <option value="2">2</option>
+                            <option value="1.8">2-</option>
+                            <option value="1.5">1+</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>
+                    <div id="dodajOcene">
+                        <button id="dodajOceneButton" type="submit" disabled>Dodaj Ocenę</button>
+                    </div>
+                </div>
+            </div>
+            <div id="panelListyOcen">
+                <h2>Panel do wyświetlania i obliczania ocen</h2>
+                <div id="panelOcen">
+                    <div id="sprawdzian" class="rodzaje">
+                        <h3>Sprawdziany</h3>
+                        <div class="oceny" id="sprawdzianOceny">
+                            <table id="listaSprawdziany">
+                                <tr>
+                                    <th>Ocena</th>
+                                    <th>Wartość do średniej</th>
+                                </tr>
+                                <tr>
+                                    <td><ul class="sprawdzianyOceny removeAllSemestr" id="ocenySprawdzian">
+                                        </ul></td>
+                                    <td><ul class="sprawdzianyOceny removeAllSemestr" id="wartoscSprawdzian">
+                                        </ul></td>
+                                </tr>
+                                
+                            </table>
+                        </div>
+                        <div class="reset" id="sprawdzianReset">
+                            <button  disabled>Resetuj Oceny</button>
+                        </div>
+                    </div>
+                    <div id="kartkowki" class="rodzaje">
+                        <h3>Kartkówki</h3>
+                        <div class="oceny" id="kartkowkaOceny">
+                            <table id="listaKartkowki">
+                                <tr>
+                                    <th>Ocena</th>
+                                    <th>Wartość do średniej</th>
+                                </tr>
+                                <tr>
+                                    <td><ul class="kartkowkiOceny removeAllSemestr" id="ocenyKartkowka">
+                                        </ul></td>
+                                    <td><ul class="kartkowkiOceny removeAllSemestr" id="wartoscKartkowka">
+                                        </ul></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="reset" id="kartkowkaReset">
+                            <button  disabled>Resetuj Oceny</button>
+                        </div>
+                    </div>
+                    <div id="inne" class="rodzaje">
+                        <h3>Inne</h3>
+                        <div class="oceny" id="inneOceny">
+                            <table id="listaInne">
+                                <tr>
+                                    <th>Ocena</th>
+                                    <th>Wartość do średniej</th>
+                                </tr>
+                                <tr>
+                                    <td><ul class="pozostaleOceny removeAllSemestr" id="ocenyInne">
+                                        </ul></td>
+                                    <td><ul class="pozostaleOceny removeAllSemestr" id="wartoscInne">
+                                        </ul></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="reset" id="inneReset">
+                            <button  disabled>Resetuj Oceny</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="panelSemestrow">
+                    <h3>Panel na oceny za semestr</h3>
+                    <div id="rodzajSredniej">
+                        <div id="wyborRodzaju">
+                            <input type="radio" id="arytmetyczna" name="srednia" value="sredniaArytmetyczna" class="radioSrednia" disabled>
+                            <label for="arytmetyczna">Średnia Arytmetyczna</label><br>
+                            <input type="radio" id="wazona" name="srednia" value="sredniaWazona" class="radioSrednia" disabled>
+                            <label for="wazona">Średnia Ważona</label><br>
+                        </div>
+                        <div id="ocenaSemestr">
+                            <button disabled>Ocena na semestr</button>
+                        </div>
+                    </div>
+                    <div id="listaSemestr">
+                        <h4>Oceny semestralne</h4>
+                        <div id="panelSemestr">
+                            <ol>
+                            </ol>
+                        </div>
+                        <div id="semestrReset">
+                           <button disabled>Resetuj Oceny</button>
+                        </div>
+                    </div>
+                    <div id="ocenaRoczna">
+                        <button disabled>Ocena Roczna</button>
+                    </div>
+                </div>
+            </div>
+            <div id="panelWynikowy">
+                <div id="wynik">
+                    <p></p>
+                </div>
+                <div id="odnowa">
+                    <button disabled>Przelicz jeszcze raz</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

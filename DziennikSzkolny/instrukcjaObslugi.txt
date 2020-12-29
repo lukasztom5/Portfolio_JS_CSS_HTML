@@ -1,0 +1,14 @@
+Wybieramy ocenę i rodzaj oceny. Klikamy przycisk "Dodaj ocenę", który zostanie odblokowany.
+
+W zależności od rodzaju, ocena zostanie dodana na listę ocen za sprawdziany, kartkówki lub innę. Panel wstawiania ocen jest zrestartowany.
+Powinny być też odblokowane radio "Średnia Ważona" i "Średnia Arytmetyczna"
+
+Poniżej każdego panelu jest przycik "Resetuj". Powoduje usunięcie ocen z wybranego panelu. Jeśli po usunięciu wszystkie panele są puste, to
+radio "Średnia Ważona" i "Średnia Arytmetyczna" będą znowu zablokowane
+
+Po wpisaniu ocen, wybieramy jedno z radio "Średnia Ważona" i "Średnia Arytmetyczna". Klikamy odblokowany przycisk "Ocena za semestr".
+Zostanie wyliczona ocena na semestr i dodana do panelu z ocenami semestralnymi. Odblokuje się przycik "Resetuj oceny", który usunie oceny.
+
+Jeśli w panelu ocen semestralnych będą 2 oceny, to odblokowany będzie przycisk "Ocena Roczna". Po kliknięciu przycisku, w panelu będzie
+wyświetlony komunikat o ocenach za poszczególne semestry i ocena roczna. Odblokuje się przycisk "Przelicz od nowa". Po kliknięciu 
+wrócimy do stanu tuż po wczytaniu oceny.
