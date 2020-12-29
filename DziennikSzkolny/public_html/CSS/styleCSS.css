@@ -1,0 +1,553 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+div#glownyPanel{
+    display:block;
+    border: 2px solid black;
+    background-image: radial-gradient(gray,white);
+    position: absolute;
+    width:98%;
+    height:97%;
+    margin:0.5% 1%;
+}
+div#naglowekPanelu{
+    display: block;
+    position: relative;
+    width:97.5%;
+    height:5%;
+    margin: 1% auto;
+    background-color: rgba(255,250,255,0.8);
+    border: 4px double black;
+}
+div#naglowekPanelu>h1{
+    font:italic normal bold x-large none; 
+    text-transform: uppercase;
+    text-shadow: 1px 1px red;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+div#panelFormularza{
+    display: block;
+    position: relative;
+    width:97.5%;
+    height:13%;
+    margin: 1% auto;
+    background-color: rgba(255,250,255,0.8);
+    border: 4px double black;
+}
+div#panelFormularza>h2,div#glownyPanel div#panelListyOcen>h2{
+    font:italic normal bold medium none; 
+    text-transform: uppercase;
+    text-shadow: 1px 1px red;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+div#panelFormularza>h2{
+    top:20%;
+}
+div#panelFormularza div#formularz{
+    display: block;
+    position: relative;
+    width:70%;
+    height:80%;
+    padding:1%;
+    top:15%;
+}
+div#panelFormularza div#formularz div{
+    position: relative;
+    padding:1%;
+}
+div#panelFormularza div#formularz div label{
+    font:normal normal bold medium none; 
+    float:left;
+}
+label+select{
+    border: 2px solid black;
+    margin-left: 2%;
+    box-shadow: 0 0.25em rgba(222,200,225,0.8);
+}
+label+select#listaKategorii{
+    width:55%;
+}
+div#panelFormularza div#formularz div#kategoria{
+    position: relative;
+    width:25%;
+    float:left;
+}
+div#panelFormularza div#formularz div#oceny{
+    position: relative;
+    width:20%;
+    float:left;
+}
+div#panelFormularza div#formularz div#oceny select#listaOcen{
+    position: relative;
+    width:70%;
+    float:left;
+}
+div#panelFormularza div#formularz div select{
+    position: relative;
+    transition-duration: 0.2s;
+    height:70%;
+    border-radius: 3px;
+}
+div#panelFormularza div#formularz div select option{
+    position: relative; 
+    background-color: white;
+    color:black;
+}
+div#panelFormularza div#formularz div select:hover{
+    opacity:1;
+    color:red;
+    background-color: gray;
+    font-weight: bold;
+    border: 4px solid black;
+}
+div#panelFormularza div#formularz div select option:hover{
+    position: relative;
+    background-color: gray;
+    color:red;
+    border-top: 2px solid black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    
+}
+
+div#panelFormularza div#formularz div#dodajOcene{
+    position: relative;
+    float:left;
+    width:30%;
+}
+div#formularz div#dodajOcene>button{
+    border: 2px solid black;
+    border-radius: 3px;
+    padding:1%;
+    width:100%;
+    transition-duration: 0.2s;
+    background: white;
+    font-weight: bold;
+    box-shadow: 0 0.25em rgba(222,200,225,0.8);
+}
+div#formularz div#dodajOcene>button:disabled:hover{
+    opacity:0.5;
+    color:red;
+    background-color: gray;
+    transform: rotateX(0deg);
+    font-weight: bold;
+    border: 4px solid black;
+}
+div#formularz div#dodajOcene>button:hover{
+    opacity:1;
+    color:red;
+    background-color: gray;
+    transform: rotateX(30deg);
+    font-weight: bold;
+    border: 4px solid black;
+}
+div#formularz div#dodajOcene>button:active{
+    position:relative;
+    color:red;
+    top:0.25em;
+    box-shadow: 0 0.25em rgba(0,0,0,0.0);
+}
+div#glownyPanel div#panelListyOcen{
+    display: block;
+    position: relative;
+    width:97.5%;
+    height:56%;
+    margin: 1% auto;
+    background-color: rgba(255,250,255,0.8);
+    border: 4px double black;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen{
+    display: block;
+    position: relative;
+    width:65%;
+    height:88%;
+    top:8%;
+    left:1%;
+    float:left;
+    border:4px dashed black;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje{
+    display: block;
+    position: relative;
+    width:30%;
+    height:100%;
+    top:0%;
+    left:0%;
+    margin: 0.5%;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje>h3,div#glownyPanel div#panelListyOcen div#panelSemestrow>h3{
+    font:italic normal bold medium none; 
+    text-transform: uppercase;
+    text-shadow: 1px 1px red;
+    position: absolute;
+    top:5%;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje>h3{
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow>h3{
+    left:30%;
+    transform: translate(-15%,-50%);
+}
+div#glownyPanel div#panelListyOcen div#panelOcen #sprawdzian{
+    float:left;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen #kartkowki{
+    float:left;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen #inne{
+    float:left;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje .oceny{
+    display: block;
+    position: relative;
+    width:98%;
+    height:79%;
+    top:8%;
+    left:0%;
+    background-color: darkgreen;
+    border: 4px inset black;
+    margin:0% 0.25% 0% 0.25%;
+    overflow-y: auto;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje .oceny table tr th{
+    border-bottom:4px double white;
+    color:white;
+    font:italic normal bold medium Verdana; 
+    text-align: center;
+    margin:1%;
+    border-collapse: collapse;   
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje .oceny table{
+    width:98%;   
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje .oceny table tr td>ul{
+    color:white;
+    font:italic normal bold large Verdana; 
+    text-align: left;
+    list-style: inside;
+    margin: 1% 5%;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje .reset{
+    display: block;
+    position: relative;
+    width:99%;
+    height:12%;
+    top:8%;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje .reset>button{ 
+    border: 2px solid black;
+    border-radius: 3px;
+    padding:1%;
+    margin: 1%;
+    width:100%;
+    transition-duration: 0.2s;
+    font-weight: bold;
+    background: yellow;
+    opacity: 1;
+    box-shadow: 0 0.25em rgba(222,200,225,0.8);
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje .reset>button:disabled:hover{
+    opacity:0.5;
+    color:red;
+    transform: rotateX(0deg);
+    border: 4px solid black;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje .reset>button:hover{
+    opacity:1;
+    color:red;
+    position: absolute;
+    transform: rotateX(30deg);
+    font-weight: bold;
+    background: darkgoldenrod;
+    border: 4px solid black;
+}
+div#glownyPanel div#panelListyOcen div#panelOcen .rodzaje .reset>button:active{
+    position: absolute;
+    color:red;
+    top:0.25em;
+    box-shadow: 0 0.25em rgba(0,0,0,0.0);
+}
+div#glownyPanel div#panelListyOcen>h2{
+    top:5%;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow{
+    display: block;
+    position: relative;
+    width:31%;
+    height:88%;
+    top:8%;
+    float:left;
+    margin: 0% 0.5% 1% 2%;
+    border:4px dashed black;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#rodzajSredniej{
+    display: block;
+    position: relative;
+    width:98%;
+    height:25%;
+    top:8%;
+    margin: 1% 1%;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#wyborRodzaju{
+    display: block;
+    position: relative;
+    width:55%;
+    height:80%;
+    margin: 1% 1%;
+    float:left;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#wyborRodzaju input{
+    margin: 4%;
+    
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#wyborRodzaju input+label{
+    font:italic normal bold small Verdana; 
+    color:black;
+}
+
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#wyborRodzaju label:hover{
+    font:italic normal bold medium Verdana; 
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#wyborRodzaju label:active{
+    color:red;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#wyborRodzaju input:checked+label{
+    font:italic normal bold small Verdana; 
+    color:red;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaSemestr{
+    display: block;
+    position: relative;
+    width:40%;
+    height:40%;
+    margin: 1% 1%;
+    top:20%;
+    float:left;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaSemestr>button{
+    border: 2px solid black;
+    border-radius: 3px;
+    padding:1%;
+    width:100%;
+    transition-duration: 0.2s;
+    background: white;
+    font-weight: bold;
+    box-shadow: 0 0.25em rgba(222,200,225,0.8);
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaSemestr>button:hover{
+    opacity:1;
+    color:red;
+    background-color: gray;
+    transform: rotateX(30deg);
+    font-weight: bold;
+    border: 4px solid black;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaSemestr>button:active{
+    position:relative;
+    color:red;
+    top:0.25em;
+    box-shadow: 0 0.25em rgba(0,0,0,0.0);
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaSemestr>button:disabled:hover{
+    opacity:0.5;
+    color:red;
+    transform: rotateX(0deg);
+    border: 4px solid black;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr{
+    display: block;
+    position: relative;
+    width:98%;
+    height:50%;
+    margin: 1% 1%;
+    top:6%;
+    float:left;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr>h4{
+    font:italic normal bold small none; 
+    text-transform: uppercase;
+    text-shadow: 1px 1px red;
+    position: absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr div#panelSemestr{
+    display: block;
+    position: relative;
+    width:98%;
+    height:60%;
+    top:10%;
+    left:0%;
+    background-color: darkgreen;
+    border: 4px inset black;
+    margin:0% 0.25% 0% 0.25%;
+    overflow-y: auto;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr div#panelSemestr>ol{
+    color:white;
+    font:italic normal bold x-large Verdana; 
+    text-align: left;
+    list-style: inside;
+    margin: 1% 5%;
+    list-style-type: upper-roman;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr div#panelSemestr>ol li{
+    padding:2%;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr div#semestrReset{
+    display: block;
+    position: relative;
+    width:98%;
+    height:20%;
+    margin: 1% 1%;
+    top:10%;
+    float:left;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr div#semestrReset>button{
+    border: 2px solid black;
+    border-radius: 3px;
+    padding:1%;
+    width:100%;
+    transition-duration: 0.2s;
+    font-weight: bold;
+    background: yellow;
+    opacity: 1;
+    box-shadow: 0 0.25em rgba(222,200,225,0.8);
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr div#semestrReset>button:hover{
+    opacity:1;
+    color:red;
+    position: absolute;
+    background-color: gray;
+    transform: rotateX(30deg);
+    font-weight: bold;
+    background: darkgoldenrod;
+    border: 4px solid black;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr div#semestrReset>button:disabled:hover{
+    opacity:0.5;
+    color:red;
+    transform: rotateX(0deg);
+    border: 4px solid black;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#listaSemestr div#semestrReset>button:active{
+    position: absolute;
+    color:red;
+    top:0.25em;
+    box-shadow: 0 0.25em rgba(0,0,0,0.0);
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaRoczna{
+    display: block;
+    position: relative;
+    width:98%;
+    height:10%;
+    margin: 1% 1%;
+    top:5%;
+    float:left;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaRoczna>button{
+    border: 2px solid black;
+    border-radius: 3px;
+    padding:1%;
+    width:100%;
+    transition-duration: 0.2s;
+    background: white;
+    font-weight: bold;
+    box-shadow: 0 0.25em rgba(222,200,225,0.8);
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaRoczna>button:hover{
+    opacity:1;
+    color:red;
+    background-color: gray;
+    transform: rotateX(30deg);
+    font-weight: bold;
+    border: 4px solid black;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaRoczna>button:disabled:hover{
+    opacity:0.5;
+    color:red;
+    transform: rotateX(0deg);
+    border: 4px solid black;
+}
+div#glownyPanel div#panelListyOcen div#panelSemestrow div#ocenaRoczna>button:active{
+    position:relative;
+    color:red;
+    top:0.25em;
+    box-shadow: 0 0.25em rgba(0,0,0,0.0);
+}
+div#glownyPanel div#panelWynikowy{
+    display: block;
+    position: relative;
+    width:97.5%;
+    height:12%;
+    margin: 1% auto;
+    background-color: rgba(255,250,255,0.8);
+    border: 4px double black;
+}
+div#glownyPanel div#panelWynikowy div#wynik{
+    display: block;
+    position: relative;
+    width:80%;
+    height:98%;
+    float:left;
+}
+div#glownyPanel div#panelWynikowy div#odnowa{
+    display: block;
+    position: relative;
+    width:16%;
+    height:50%;
+    margin: 1% 1%;
+    top:5%;
+    left:1%;
+    float:left;
+}
+div#glownyPanel div#panelWynikowy div#odnowa>button{
+    border: 2px solid black;
+    border-radius: 3px;
+    padding:1%;
+    width:100%;
+    height: 100%;
+    transition-duration: 0.2s;
+    background: white;
+    font-weight: bold;
+    box-shadow: 0 0.25em rgba(222,200,225,0.8);
+}
+div#glownyPanel div#panelWynikowy div#odnowa>button:hover{
+    opacity:1;
+    color:red;
+    background-color: gray;
+    transform: rotateX(30deg);
+    font-weight: bold;
+    border: 4px solid black;
+}
+div#glownyPanel div#panelWynikowy div#odnowa>button:disabled:hover{
+    opacity:0.5;
+    color:red;
+    transform: rotateX(0deg);
+    border: 4px solid black;
+}
+div#glownyPanel div#panelWynikowy div#odnowa>button:active{
+    position:relative;
+    color:red;
+    top:0.25em;
+    box-shadow: 0 0.25em rgba(0,0,0,0.0);
+}
+div#glownyPanel div#panelWynikowy div#wynik>p{
+    font:italic normal bold medium none; 
+    text-transform: uppercase;
+    text-shadow: 1px 1px red;
+    position: absolute;
+    top:50%;
+    left:10%;
+    transform: translate(-10%,-50%);
+}
