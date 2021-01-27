@@ -1,0 +1,799 @@
+{   
+    "AED": {
+        "currencyName": "Dirham",
+        "continent": "Asia",
+        "id": "AED"
+    },
+    "AFN": {
+        "currencyName": "Afghani",
+        "continent": "Asia",
+        "id": "AFN"
+    },
+    "AMD": {
+        "currencyName": "Dram",
+        "continent": "Asia",
+        "id": "AMD"
+    },
+    "AUD": {
+        "currencyName": "Dolar Australijski",
+        "continent": "Australia and Oceania",
+        "id": "AUD"
+    },
+    "ALL": {
+        "currencyName": "Lek",
+        "continent": "Europe",
+        "id": "ALL"
+    },
+    "AOA": {
+        "currencyName": "Kwanza",
+        "continent": "Africa",
+        "id": "AOA"
+    },
+    "ARS": {
+        "currencyName": "Peso Argentyńskie",
+        "continent": "South America",
+        "id": "ARS"
+    },
+    "AWG": {
+        "currencyName": "Aruban Florin",
+        "continent": "Florin Arubański",
+        "id": "AWG"
+    },
+    "AZN": {
+        "currencyName": "Manat Azerski",
+        "continent": "Asia",
+        "id": "AZN"
+    },
+    "BAM": {
+        "currencyName": "Marka Transferowa",
+        "continent": "Europe",
+        "id": "BAM"
+    },
+    "BBD": {
+        "currencyName": "Dolar Barbadosu",
+        "continent": "North America",
+        "id": "BBD"
+    },
+	"BDT": {
+        "currencyName": "Taka Bengalska",
+        "continent": "Asia",
+        "id": "BDT"
+    },
+
+	"BGN": {
+        "currencyName": "Law",
+        "continent": "Europe",
+        "id": "BGN"
+    },
+	"BHD": {
+        "currencyName": "Dinar Bahrajnu",
+        "continent": "Asia",
+        "id": "BHD"
+    },
+    "BIF": {
+        "currencyName": "Frank Burundyjski",
+        "continent": "Africa",
+        "id": "BIF"
+    },
+	"BMD": {
+        "currencyName": "Dolar Bermudzki",
+        "continent": "North America",
+        "id": "BMD"
+    },
+    "BND": {
+        "currencyName": "Dolar Brunei",
+        "continent": "Asia",
+        "id": "BND"
+    },
+    "BOB": {
+        "currencyName": "Boliviano",
+        "continent": "South America",
+        "id": "BOB"
+    },
+	"BRL": {
+		"currencyName": "Real",
+		"continent": "South America",
+		"id": "BRL"
+    },
+	"BSD": {
+        "currencyName": "Dolar Bahamski",
+        "continent": "North America",
+        "id": "BSD"
+    },
+    "BTN": {
+        "currencyName": "Ngultrum",
+        "continent": "Asia",
+        "id": "BTN"
+    },
+	"BWP": {
+        "currencyName": "Pula",
+        "continent": "Africa",
+        "id": "BWP"
+    },
+	"BYN": {
+        "currencyName": "Rubel Białoruski",
+        "continent": "Europe",
+        "id": "BYN"
+    },
+	"BZD": {
+        "currencyName": "Dolar Belize",
+        "continent": "North America",
+        "id": "BZD"
+    },
+	"CAD": {
+        "currencyName": "Dolar Kanadyjski",
+        "continent": "North America",
+        "id": "CAD"
+    },
+	"CDF": {
+        "currencyName": "Frank Kongijski",
+        "continent": "Africa",
+        "id": "CDF"
+    },
+	"CHF": {
+        "currencyName": "Frank Szwajcarski",
+        "continent": "Europe",
+        "id": "CHF"
+    },
+    "CLP": {
+        "currencyName": "Peso Chilijskie",
+        "continent": "South America",
+        "id": "CLP"
+    },
+	"CNY": {
+        "currencyName": "Yuan",
+        "continent": "Asia",
+        "id": "CNY"
+    },
+	"COP": {
+        "currencyName": "Peso Kolumbijskie",
+        "continent": "South America",
+        "id": "COP"
+    },
+    "CRC": {
+        "currencyName": "Colon",
+        "continent": "North America",
+        "id": "CRC"
+    },
+    "CUP": {
+        "currencyName": "Peso Kubańskie",
+        "continent": "North America",
+        "id": "CUP"
+    },
+	"CVE": {
+        "currencyName": "Cape Verdean Escudo",
+        "continent": "Africa",
+        "id": "CVE"
+    },
+	"CZK": {
+        "currencyName": "Korona Czeska",
+        "continent": "Europe",
+        "id": "CZK"
+    },
+	"DKK": {
+        "currencyName": "Korona Duńska",
+        "continent": "Europe",
+        "id": "DKK"
+    },
+	"DJF": {
+        "currencyName": "Frank Dżibutyjski",
+        "continent": "Africa",
+        "id": "DJF"
+    },
+	"DOP": {
+        "currencyName": "Peso Dominikańskie",
+        "continent": "North America",
+        "id": "DOP"
+    },
+	"DZD": {
+        "currencyName": "Dinar Algierski",
+        "continent": "Africa",
+        "id": "DZD"
+    },
+	"EGP": {
+        "currencyName": "Funt Egipski",
+        "continent": "Africa",
+        "id": "EGP"
+    },
+    "ERN": {
+        "currencyName": "Nakfa",
+        "continent": "Africa",
+        "id": "ERN"
+    },
+	"ETB": {
+        "currencyName": "Birr",
+        "continent": "Africa",
+        "id": "ETB"
+    },
+    "EUR": {
+        "currencyName": "Euro",
+        "continent": "Europe",
+        "id": "EUR"
+    },
+	"FJD": {
+        "currencyName": "Dolar Fidżijski",
+        "continent": "Australia and Oceania",
+        "id": "FJD"
+    },
+    "FKP": {
+        "currencyName": "Funt Falklandzki",
+        "continent": "South America",
+        "id": "FKP"
+    },
+	"GBP": {
+        "currencyName": "Funt Szterling",
+        "continent": "Europe",
+        "id": "GBP"
+    },
+	"GEL": {
+        "currencyName": "Lari",
+        "continent": "Asia",
+        "id": "GEL"
+    },
+	"GGP": {
+        "currencyName": "Funt Guernsey",
+        "continent": "Europe",
+        "id": "GGP"
+    },
+	"GHS": {
+        "currencyName": "Cedi",
+        "continent": "Africa",
+        "id": "GHS"
+    },
+    "GIP": {
+        "currencyName": "Funt Gibraltarski",
+        "continent": "Europe",
+        "id": "GIP"
+    },
+	"GMD": {
+        "currencyName": "Dalasi",
+        "continent": "Africa",
+        "id": "GMD"
+    },
+	"GNF": {
+        "currencyName": "Frank Gwinejski",
+        "continent": "Africa",
+        "id": "GNF"
+    },
+	"GTQ": {
+        "currencyName": "Quetzal",
+        "continent": "North America",
+        "id": "GTQ"
+    },
+	"GYD": {
+        "currencyName": "Dolar Gujański",
+        "continent": "South America",
+        "id": "GYD"
+    },
+	"HKD": {
+        "currencyName": "Dolar Hongkoński",
+        "continent": "Asia",
+        "id": "HKD"
+    },
+	"HNL": {
+        "currencyName": "Lempira",
+        "continent": "North America",
+        "id": "HNL"
+    },
+	"HRK": {
+        "currencyName": "Kuna",
+        "continent": "Europe",
+        "id": "HRK"
+    },
+	"HTG": {
+        "currencyName": "Gourde",
+        "continent": "North America",
+        "id": "HTG"
+    },
+    "HUF": {
+        "currencyName": "Forint",
+        "continent": "Europe",
+        "id": "HUF"
+    },
+	"IDR": {
+        "currencyName": "Rupia Indonezyjska",
+        "continent": "Asia",
+        "id": "IDR"
+    },
+	"ILS": {
+        "currencyName": "Szekel",
+        "continent": "Asia",
+        "id": "ILS"
+    },
+	"IMP": {
+        "currencyName": "Funt Manx",
+        "continent": "Europe",
+        "id": "IMP"
+    },
+	"INR": {
+        "currencyName": "Rupia Indyjska",
+        "continent": "Asia",
+        "id": "INR"
+    },
+	"IQD": {
+        "currencyName": "Dinar Iracki",
+        "continent": "Asia",
+        "id": "IQD"
+    },
+    "IRR": {
+        "currencyName": "Rial",
+        "continent": "Asia",
+        "id": "IRR"
+    },
+	"ISK": {
+        "currencyName": "Korona Islandzka",
+        "continent": "Europe",
+        "id": "ISK"
+    },
+	"JEP": {
+        "currencyName": "Funt Jersey",
+        "continent": "Europe",
+        "id": "JEP"
+    },
+    "JMD": {
+        "currencyName": "Dolar Jamajski",
+        "continent": "North America",
+        "id": "JMD"
+    },
+	"JOD": {
+        "currencyName": "Dinar Jordański",
+        "continent": "Asia",
+        "id": "JOD"
+    },
+	"JPY": {
+        "currencyName": "Yen",
+        "continent": "Asia",
+        "id": "JPY"
+    },
+	"KHR": {
+        "currencyName": "Riel Kambodżański",
+        "continent": "Asia",
+        "id": "KHR"
+    },
+	"KES": {
+        "currencyName": "Szyling Kenijski",
+        "continent": "Africa",
+        "id": "KES"
+    },
+    "KGS": {
+        "currencyName": "Som",
+        "continent": "Asia",
+        "id": "KGS"
+    },
+    "KMF": {
+        "currencyName": "Frank Komorski",
+        "continent": "Africa",
+        "id": "KMF"
+    },
+	"KPW": {
+        "currencyName": "Won Północnokoreańska",
+        "continent": "Asia",
+        "id": "KPW"
+    },
+    "KRW": {
+        "currencyName": "Won Południowokoreański",
+        "continent": "Asia",
+        "id": "KRW"
+    },
+	"KWD": {
+        "currencyName": "Dinar Kuwejcki",
+        "continent": "Asia",
+        "id": "KWD"
+    },
+	"KYD": {
+        "currencyName": "Dolar Kajmański",
+        "continent": "North America",
+        "id": "KYD"
+    },
+	"KZT": {
+        "currencyName": "Tenge",
+        "continent": "Asia",
+        "id": "KZT"
+    },
+    "LAK": {
+        "currencyName": "Kip",
+        "continent": "Asia",
+        "id": "LAK"
+    },
+	"LBP": {
+        "currencyName": "Funt Libański",
+        "continent": "Asia",
+        "id": "LBP"
+    },
+	"LKR": {
+        "currencyName": "Rupia Lankijska",
+        "continent": "Asia",
+        "id": "LKR"
+    },
+	"LRD": {
+        "currencyName": "Dolar Liberyjski",
+        "continent": "Africa",
+        "id": "LRD"
+    },
+	"LSL": {
+        "currencyName": "Loti",
+        "continent": "Africa",
+        "id": "LSL"
+    },
+    "LYD": {
+        "currencyName": "Dinar Libijski",
+        "continent": "Africa",
+        "id": "LYD"
+    },
+	"MAD": {
+        "currencyName": "Dirham Marokański",
+        "continent": "Africa",
+        "id": "MAD"
+    },
+    "MDL": {
+        "currencyName": "Lej Mołdawski",
+        "continent": "Europe",
+        "id": "MDL"
+    },
+    "MGA": {
+        "currencyName": "Ariary",
+        "continent": "Africa",
+        "id": "MGA"
+    },
+    "MKD": {
+        "currencyName": "Denar macedoński",
+        "continent": "Europe",
+        "id": "MKD"
+    },
+	"MMK": {
+        "currencyName": "Kiat",
+        "continent": "Asia",
+        "id": "MMK"
+    },
+    "MNT": {
+        "currencyName": "Tugrik",
+        "continent": "Asia",
+        "id": "MNT"
+    },
+	"MOP": {
+        "currencyName": "Pataca Macau",
+        "continent": "Asia",
+        "id": "MOP"
+    },
+	"MRO": {
+        "currencyName": "Ouguiya",
+        "continent": "Africa",
+        "id": "MRO"
+    },
+	"MUR": {
+        "currencyName": "Rupia Maurytyjska",
+        "continent": "Africa",
+        "id": "MUR"
+    },
+	"MVR": {
+        "currencyName": "Rupia Malediwska",
+        "continent": "Asia",
+        "id": "MVR"
+    },
+    "MWK": {
+        "currencyName": "Kwacha",
+        "continent": "Africa",
+        "id": "MWK"
+    },
+	"MXN": {
+        "currencyName": "Peso Meksykańskie",
+        "continent": "North America",
+        "id": "MXN"
+    },
+	"MYR": {
+        "currencyName": "Ringgit",
+        "continent": "Asia",
+        "id": "MYR"
+    },
+    "MZN": {
+        "currencyName": "Metical",
+        "continent": "Africa",
+        "id": "MZN"
+    },
+	"NAD": {
+        "currencyName": "Dolar Namibijski",
+        "continent": "Africa",
+        "id": "NAD"
+    },
+	"NGN": {
+        "currencyName": "Naira",
+        "continent": "Africa",
+        "id": "NGN"
+    },
+	"NIO": {
+        "currencyName": "Złota Cordoba",
+        "continent": "North America",
+        "id": "NIO"
+    },
+	"NOK": {
+        "currencyName": "Korona Norweska",
+        "continent": "Europe",
+        "id": "NOK"
+    },
+    "NPR": {
+        "currencyName": "Rupia Nepalska",
+        "continent": "Asia",
+        "id": "NPR"
+    },
+    "NZD": {
+        "currencyName": "Dolar Nowozelandzki",
+        "continent": "Australia and Oceania",
+        "id": "NZD"
+    },
+    "OMR": {
+        "currencyName": "Rial Omański",
+        "continent": "Asia",
+        "id": "OMR"
+    },
+	"PAB": {
+        "currencyName": "Balboa",
+        "continent": "North America",
+        "id": "PAB"
+    },
+	"PEN": {
+        "currencyName": "Sol",
+        "continent": "South America",
+        "id": "PEN"
+    },
+    "PGK": {
+        "currencyName": "Kina Papuaska",
+        "continent": "Australia and Oceania",
+        "id": "PGK"
+    },
+	"PHP": {
+        "currencyName": "Peso Filipińskie",
+        "continent": "Asia",
+        "id": "PHP"
+    },
+	"PKR": {
+        "currencyName": "Rupia Pakistańska",
+        "continent": "Asia",
+        "id": "PKR"
+    },
+	"PLN": {
+        "currencyName": "Złoty",
+        "continent": "Europe",
+        "id": "PLN"
+    },
+    "PYG": {
+        "currencyName": "Guarani",
+        "continent": "South America",
+        "id": "PYG"
+    },
+	"QAR": {
+        "currencyName": "Rial Katarski",
+        "continent": "Asia",
+        "id": "QAR"
+    },
+	"RON": {
+        "currencyName": "Lej",
+        "continent": "Europe",
+        "id": "RON"
+    },
+	"RSD": {
+        "currencyName": "Dinar Serbski",
+        "continent": "Europe",
+        "id": "RSD"
+    },
+	"RUB": {
+        "currencyName": "Rubel Rosyjski",
+        "continent": "Europe",
+        "id": "RUB"
+    },
+    "RWF": {
+        "currencyName": "Frank Rwandyjski",
+        "continent": "Africa",
+        "id": "RWF"
+    },
+	"SAR": {
+        "currencyName": "Rial Arabski",
+        "continent": "Asia",
+        "id": "SAR"
+    },
+	"SBD": {
+        "currencyName": "Dolar Wysp Salomona",
+        "continent": "Australia and Oceania",
+        "id": "SBD"
+    },
+    "SCR": {
+        "currencyName": "Rupia Seszelska",
+        "continent": "Africa",
+        "id": "SCR"
+    },
+	"SDG": {
+        "currencyName": "Funt Sudański",
+        "continent": "Africa",
+        "id": "SDG"
+    },
+    "SEK": {
+        "currencyName": "Korona Szwedzka",
+        "continent": "Europe",
+        "id": "SEK"
+    },
+	"SGD": {
+        "currencyName": "Dolar Singapurski",
+        "continent": "Asia",
+        "id": "SGD"
+    },
+    "SHP": {
+        "currencyName": "Funt Wyspy Świętej Heleny",
+        "continent": "Africa",
+        "id": "SHP"
+    },
+	"SLL": {
+        "currencyName": "Leone",
+        "continent": "Africa",
+        "id": "SLL"
+    },
+    "SOS": {
+        "currencyName": "Szyling Somalijski",
+        "continent": "Africa",
+        "id": "SOS"
+    },
+	"SRD": {
+        "currencyName": "Dolar Surinamski",
+        "continent": "South America",
+        "id": "SRD"
+    },
+    "STD": {
+        "currencyName": "Dobra",
+        "continent": "Africa",
+        "id": "STD"
+    },
+    "SYP": {
+        "currencyName": "Funt Syryjski",
+        "continent": "Asia",
+        "id": "SYP"
+    },
+	"SZL": {
+        "currencyName": "Lilangeni",
+        "continent": "Africa",
+        "id": "SZL"
+    },
+	"THB": {
+        "currencyName": "Baht",
+        "continent": "Asia",
+        "id": "THB"
+    },
+	"TJS": {
+        "currencyName": "Somoni",
+        "continent": "Asia",
+        "id": "TJS"
+    },
+	"TMT": {
+        "currencyName": "Manat Turkmeński",
+        "continent": "Asia",
+        "id": "TMT"
+    },
+	"TND": {
+        "currencyName": "Dinar Tunezyjski",
+        "continent": "Africa",
+        "id": "TND"
+    },
+	"TOP": {
+        "currencyName": "Paanga",
+        "continent": "Australia and Oceania",
+        "id": "TOP"
+    },
+	"TRY": {
+        "currencyName": "Lira Turecka",
+        "continent": "Asia",
+        "id": "TRY"
+    },
+	"TTD": {
+        "currencyName": "Dolar Trynidadu i Tobago",
+        "continent": "North America",
+        "id": "TTD"
+    },
+    "TWD": {
+        "currencyName": "Dolar Tajwański",
+        "continent": "Asia",
+        "id": "TWD"
+    },
+    "TZS": {
+        "currencyName": "Szyling Tanzański",
+        "continent": "Africa",
+        "id": "TZS"
+    },
+	"UAH": {
+        "currencyName": "Hrywna",
+        "continent": "Europe",
+        "id": "UAH"
+    },
+	"UGX": {
+        "currencyName": "Szyling Ugandyjski",
+        "continent": "Africa",
+        "id": "UGX"
+    },
+    "USD": {
+        "currencyName": "Dolar Amerykański",
+        "continent": "North America",
+        "id": "USD"
+    },
+    "USD_South": {
+        "currencyName": "Dolar Amerykański",
+        "continent": "South America",
+        "id": "USD_South"
+    },
+    "USD_Asia": {
+        "currencyName": "Dolar Amerykański",
+        "continent": "Asia",
+        "id": "USD_Asia"
+    },
+    "USD_Australia_And_Oceania": {
+        "currencyName": "Dolar Amerykański",
+        "continent": "Australia and Oceania",
+        "id": "USD_Australia"
+    },
+	"UYU": {
+        "currencyName": "Peso Urugwajskie",
+        "continent": "South America",
+        "id": "UYU"
+    },
+	"UZS": {
+        "currencyName": "Sum",
+        "continent": "Asia",
+        "id": "UZS"
+    },
+	"VEF": {
+        "currencyName": "Bolivar",
+        "continent": "South America",
+        "id": "VEF"
+    },
+	"VND": {
+        "currencyName": "Dong",
+        "continent": "Asia",
+        "id": "VND"
+    },
+	"VUV": {
+        "currencyName": "Vatu",
+        "continent": "Australia and Oceania",
+        "id": "VUV"
+    },
+	"WST": {
+        "currencyName": "Tala",
+        "continent": "Australia and Oceania",
+        "id": "WST"
+    },
+    "XAF": {
+        "currencyName": "Frank CFA - Afryka Środkowa",
+        "continent": "Africa",
+        "id": "XAF"
+    },
+    "XCD": {
+        "currencyName": "Dolar Wschodniokaraibski",
+        "continent": "North America",
+        "id": "XCD"
+    },
+    "XOF": {
+        "currencyName": "Frank CFA - Afryka Zachodnia",
+        "continent": "Africa",
+        "id": "XOF"
+    },
+	"XPF": {
+        "currencyName": "Frank CFP",
+        "continent": "Australia and Oceania",
+        "id": "XPF"
+    },
+	"YER": {
+        "currencyName": "Rial Jemeński",
+        "continent": "Asia",
+        "id": "YER"
+    },
+	"ZAR": {
+        "currencyName": "Rand",
+        "continent": "Africa",
+        "id": "ZAR"
+    },
+    "ZMW": {
+        "currencyName": "Kwacha Zambijska",
+        "continent": "Africa",
+        "id": "ZMW"
+    },
+    "ZWL": {
+        "currencyName": "Dolar Zimbabwe",
+        "continent": "Africa",
+        "id": "ZWL"
+    }
+    
+}

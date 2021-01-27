@@ -1,0 +1,1722 @@
+{
+        "AF": {
+            "alpha3": "AFG",
+            "currencyId": "AFN",
+            "currencyName": "Afghan afghani",
+            "continent": "Asia",
+            "id": "AF",
+            "name": "Afganistan"
+        },
+        "AI": {
+            "alpha3": "AIA",
+            "currencyId": "XCD",
+            "currencyName": "East Caribbean dollar",
+            "continent": "North America",
+            "id": "AI",
+            "name": "Anguilla"
+        },
+        "AU": {
+            "alpha3": "AUS",
+            "currencyId": "AUD",
+            "currencyName": "Australian dollar",
+            "continent": "Australia and Oceania",
+            "id": "AU",
+            "name": "Australia"
+        },
+        "BD": {
+            "currencyId": "BDT",
+            "currencyName": "Bangladeshi taka",
+            "name": "Bangladesz",
+            "alpha3": "BGD",
+            "id": "BD",
+            "continent": "Asia"
+        },
+        "BJ": {
+            "currencyId": "XOF",
+            "currencyName": "West African CFA franc",
+            "name": "Benin",
+            "alpha3": "BEN",
+            "id": "BJ",
+            "continent": "Africa"
+        },
+        "BR": {
+            "alpha3": "BRA",
+            "currencyId": "BRL",
+            "currencyName": "Brazilian real",
+            "continent": "South America",
+            "id": "BR",
+            "name": "Brazylia"
+        },
+        "KH": {
+            "alpha3": "KHM",
+            "currencyId": "KHR",
+            "currencyName": "Cambodian riel",
+            "continent": "Asia",
+            "id": "KH",
+            "name": "Kambodża"
+        },
+        "TD": {
+            "currencyId": "XAF",
+            "currencyName": "Central African CFA franc",
+            "name": "Czad",
+            "alpha3": "TCD",
+            "id": "TD",
+            "continent": "Africa"
+        },
+        "CG": {
+            "currencyId": "XAF",
+            "currencyName": "Central African CFA franc",
+            "name": "Kongo",
+            "alpha3": "COG",
+            "id": "CG",
+            "continent": "Africa"
+        },
+        "CU": {
+            "currencyId": "CUP",
+            "currencyName": "Cuban peso",
+            "continent": "North America",
+            "name": "Kuba",
+            "alpha3": "CUB",
+            "id": "CU"
+        },
+        "DM": {
+            "alpha3": "DMA",
+            "currencyId": "XCD",
+            "currencyName": "East Caribbean dollar",
+            "continent": "North America",
+            "id": "DM",
+            "name": "Dominika"
+        },
+        "FI": {
+            "alpha3": "FIN",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "FI",
+            "name": "Finlandia"
+        },
+        "GE": {
+            "currencyId": "GEL",
+            "currencyName": "Georgian lari",
+            "name": "Gruzja",
+            "alpha3": "GEO",
+            "id": "GE",
+            "continent": "Asia"
+        },
+        "GD": {
+            "alpha3": "GRD",
+            "currencyId": "XCD",
+            "currencyName": "East Caribbean dollar",
+            "continent": "North America",
+            "id": "GD",
+            "name": "Grenada"
+        },
+        "HT": {
+            "currencyId": "HTG",
+            "currencyName": "Haitian gourde",
+            "name": "Haiti",
+            "alpha3": "HTI",
+            "id": "HT",
+            "continent": "North America"
+        },
+        "IN": {
+            "alpha3": "IND",
+            "currencyId": "INR",
+            "currencyName": "Indian rupee",
+            "continent": "Asia",
+            "id": "IN",
+            "name": "Indie"
+        },
+        "IL": {
+            "alpha3": "ISR",
+            "currencyId": "ILS",
+            "currencyName": "Israeli new sheqel",
+            "continent": "Asia",
+            "id": "IL",
+            "name": "Izrael"
+        },
+        "KZ": {
+            "alpha3": "KAZ",
+            "currencyId": "KZT",
+            "currencyName": "Kazakhstani tenge",
+            "continent": "Asia",
+            "id": "KZ",
+            "name": "Kazachstan"
+        },
+        "KW": {
+            "currencyId": "KWD",
+            "currencyName": "Kuwaiti dinar",
+            "name": "Kuwejt",
+            "alpha3": "KWT",
+            "id": "KW",
+            "continent": "Asia"
+        },
+        "LS": {
+            "currencyId": "LSL",
+            "currencyName": "Lesotho loti",
+            "name": "Lesotho",
+            "alpha3": "LSO",
+            "id": "LS",
+            "continent": "Africa"
+        },
+        "LU": {
+            "alpha3": "LUX",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "LU",
+            "name": "Luksemburg"
+        },
+        "MY": {
+            "alpha3": "MYS",
+            "currencyId": "MYR",
+            "currencyName": "Malaysian ringgit",
+            "continent": "Asia",
+            "id": "MY",
+            "name": "Malezja"
+        },
+        "MU": {
+            "alpha3": "MUS",
+            "currencyId": "MUR",
+            "currencyName": "Mauritian rupee",
+            "continent": "Africa",
+            "id": "MU",
+            "name": "Mauritius"
+        },
+        "MN": {
+            "alpha3": "MNG",
+            "currencyId": "MNT",
+            "currencyName": "Mongolian tugrik",
+            "continent": "Asia",
+            "id": "MN",
+            "name": "Mongolia"
+        },
+        "MM": {
+            "currencyId": "MMK",
+            "currencyName": "Myanma kyat",
+            "name": "Mjanmar",
+            "alpha3": "MMR",
+            "id": "MM",
+            "continent": "Asia"
+        },
+        "NC": {
+            "currencyId": "XPF",
+            "currencyName": "CFP franc",
+            "name": "Nowa Kaledonia",
+            "alpha3": "NCL",
+            "id": "NC",
+            "continent": "Australia and Oceania"
+        },
+        "NO": {
+            "alpha3": "NOR",
+            "currencyId": "NOK",
+            "currencyName": "Norwegian krone",
+            "continent": "Europe",
+            "id": "NO",
+            "name": "Norwegia"
+        },
+        "PG": {
+            "currencyId": "PGK",
+            "currencyName": "Papua New Guinean kina",
+            "name": "Papua Nowa Gwinea",
+            "alpha3": "PNG",
+            "id": "PG",
+            "continent": "Australia and Oceania"
+        },
+        "PT": {
+            "alpha3": "PRT",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "PT",
+            "name": "Portugalia"
+        },
+        "RW": {
+            "currencyId": "RWF",
+            "currencyName": "Rwandan franc",
+            "name": "Rwanda",
+            "alpha3": "RWA",
+            "id": "RW",
+            "continent": "Africa"
+        },
+        "WS": {
+            "currencyId": "WST",
+            "currencyName": "Samoan tala",
+            "name": "Samoa",
+            "alpha3": "WSM",
+            "id": "WS",
+            "continent": "Australia and Oceania"
+        },
+        "RS": {
+            "alpha3": "SRB",
+            "currencyId": "RSD",
+            "currencyName": "Serbian dinar",
+            "continent": "Europe",
+            "id": "RS",
+            "name": "Serbia"
+        },
+        "SI": {
+            "alpha3": "SVN",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "SI",
+            "name": "Słowenia"
+        },
+        "ES": {
+            "alpha3": "ESP",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "ES",
+            "name": "Hiszpania"
+        },
+        "SE": {
+            "alpha3": "SWE",
+            "currencyId": "SEK",
+            "currencyName": "Swedish krona",
+            "continent": "Europe",
+            "id": "SE",
+            "name": "Szwecja"
+        },
+        "TZ": {
+            "alpha3": "TZA",
+            "currencyId": "TZS",
+            "currencyName": "Tanzanian shilling",
+            "continent": "Africa",
+            "id": "TZ",
+            "name": "Tanzania"
+        },
+        "TN": {
+            "currencyId": "TND",
+            "currencyName": "Tunisian dinar",
+            "name": "Tunezja",
+            "alpha3": "TUN",
+            "id": "TN",
+            "continent": "Africa"
+        },
+        "UA": {
+            "alpha3": "UKR",
+            "currencyId": "UAH",
+            "currencyName": "Ukrainian hryvnia",
+            "continent": "Europe",
+            "id": "UA",
+            "name": "Ukraina"
+        },
+        "UZ": {
+            "alpha3": "UZB",
+            "currencyId": "UZS",
+            "currencyName": "Uzbekistani som",
+            "continent": "Asia",
+            "id": "UZ",
+            "name": "Uzbekistan"
+        },
+        "YE": {
+            "alpha3": "YEM",
+            "currencyId": "YER",
+            "currencyName": "Yemeni rial",
+            "continent": "Asia",
+            "id": "YE",
+            "name": "Jemen"
+        },
+        "DZ": {
+            "currencyId": "DZD",
+            "currencyName": "Algerian dinar",
+            "name": "Algeria",
+            "alpha3": "DZA",
+            "id": "DZ",
+            "continent": "Africa"
+        },
+        "AR": {
+            "alpha3": "ARG",
+            "currencyId": "ARS",
+            "currencyName": "Argentine peso",
+            "continent": "South America",
+            "id": "AR",
+            "name": "Argentyna"
+        },
+        "AZ": {
+            "alpha3": "AZE",
+            "currencyId": "AZN",
+            "currencyName": "Azerbaijani manat",
+            "continent": "Asia",
+            "id": "AZ",
+            "name": "Azerbejdżan"
+        },
+        "BY": {
+            "alpha3": "BLR",
+            "currencyId": "BYN",
+            "currencyName": "New Belarusian ruble",
+            "continent": "Europe",
+            "id": "BY",
+            "name": "Białoruś"
+        },
+        "BO": {
+            "alpha3": "BOL",
+            "currencyId": "BOB",
+            "currencyName": "Bolivian boliviano",
+            "continent": "South America",
+            "id": "BO",
+            "name": "Boliwia"
+        },
+        "BG": {
+            "alpha3": "BGR",
+            "currencyId": "BGN",
+            "currencyName": "Bulgarian lev",
+            "continent": "Europe",
+            "id": "BG",
+            "name": "Bułgaria"
+        },
+        "CA": {
+            "alpha3": "CAN",
+            "currencyId": "CAD",
+            "currencyName": "Canadian dollar",
+            "continent": "North America",
+            "id": "CA",
+            "name": "Kanada"
+        },
+        "CN": {
+            "alpha3": "CHN",
+            "currencyId": "CNY",
+            "currencyName": "Chinese renminbi",
+            "continent": "Asia",
+            "id": "CN",
+            "name": "Chiny"
+        },
+        "CR": {
+            "alpha3": "CRI",
+            "currencyId": "CRC",
+            "currencyName": "Costa Rican colon",
+            "continent": "North America",
+            "id": "CR",
+            "name": "Kostaryka"
+        },
+        "CZ": {
+            "alpha3": "CZE",
+            "currencyId": "CZK",
+            "currencyName": "Czech koruna",
+            "continent": "Europe",
+            "id": "CZ",
+            "name": "Czechy"
+        },
+        "EC": {
+            "alpha3": "ECU",
+            "currencyId": "USD_South",
+            "currencyName": "U.S. Dollar",
+            "continent": "South America",
+            "id": "EC",
+            "name": "Ekwador"
+        },
+        "EE": {
+            "alpha3": "EST",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "EE",
+            "name": "Estonia"
+        },
+        "PF": {
+            "currencyId": "XPF",
+            "currencyName": "CFP franc",
+            "name": "Polinezja Francuska",
+            "alpha3": "PYF",
+            "id": "PF",
+           "continent": "Australia and Oceania"
+        },
+        "GH": {
+            "currencyId": "GHS",
+            "currencyName": "Ghanaian cedi",
+            "name": "Ghana",
+            "alpha3": "GHA",
+            "id": "GH",
+            "continent": "Africa"
+        },
+        "GN": {
+            "currencyId": "GNF",
+            "currencyName": "Guinean franc",
+            "name": "Gwinea",
+            "alpha3": "GIN",
+            "id": "GN",
+            "continent": "Africa"
+        },
+        "HK": {
+            "alpha3": "HKG",
+            "currencyId": "HKD",
+            "currencyName": "Hong Kong dollar",
+            "continent": "Asia",
+            "id": "HK",
+            "name": "Hong Kong"
+        },
+        "IR": {
+            "alpha3": "IRN",
+            "currencyId": "IRR",
+            "currencyName": "Iranian rial",
+            "continent": "Asia",
+            "id": "IR",
+            "name": "Iran"
+        },
+        "JM": {
+            "alpha3": "JAM",
+            "currencyId": "JMD",
+            "currencyName": "Jamaican dollar",
+            "continent": "North America",
+            "id": "JM",
+            "name": "Jamajka"
+        },
+        "KI": {
+            "alpha3": "KIR",
+            "currencyId": "AUD",
+            "currencyName": "Australian dollar",
+            "continent": "Australia and Oceania",
+            "id": "KI",
+            "name": "Kiribati"
+        },
+        "LA": {
+            "alpha3": "LAO",
+            "currencyId": "LAK",
+            "currencyName": "Lao kip",
+            "continent": "Asia",
+            "id": "LA",
+            "name": "Laos"
+        },
+        "LY": {
+            "currencyId": "LYD",
+            "currencyName": "Libyan dinar",
+            "name": "Libia",
+            "alpha3": "LBY",
+            "id": "LY",
+            "continent": "Africa"
+        },
+        "MK": {
+            "alpha3": "MKD",
+            "currencyId": "MKD",
+            "currencyName": "Macedonian denar",
+            "continent": "Europe",
+            "id": "MK",
+            "name": "Macedonia Północna"
+        },
+        "ML": {
+            "currencyId": "XOF",
+            "currencyName": "West African CFA franc",
+            "name": "Mali",
+            "alpha3": "MLI",
+            "id": "ML",
+            "continent": "Africa"
+        },
+        "FM": {
+            "alpha3": "FSM",
+            "currencyId": "USD_Australia",
+            "currencyName": "U.S. Dollar",
+            "continent": "Australia and Oceania",
+            "id": "FM",
+            "name": "Mikronesia"
+        },
+        "MS": {
+            "alpha3": "MSR",
+            "currencyId": "XCD",
+            "currencyName": "East Caribbean dollar",
+            "continent": "North America",
+            "id": "MS",
+            "name": "Montserrat"
+        },
+        "NR": {
+            "alpha3": "NRU",
+            "currencyId": "AUD",
+            "currencyName": "Australian dollar",
+            "continent": "Australia and Oceania",
+            "id": "NR",
+            "name": "Nauru"
+        },
+        "NI": {
+            "alpha3": "NIC",
+            "currencyId": "NIO",
+            "currencyName": "Nicaraguan cordoba",
+            "continent": "North America",
+            "id": "NI",
+            "name": "Nikaragua"
+        },
+        "PK": {
+            "alpha3": "PAK",
+            "currencyId": "PKR",
+            "currencyName": "Pakistani rupee",
+            "continent": "Asia",
+            "id": "PK",
+            "name": "Pakistan"
+        },
+        "PE": {
+            "alpha3": "PER",
+            "currencyId": "PEN",
+            "currencyName": "Peruvian nuevo sol",
+            "continent": "South America",
+            "id": "PE",
+            "name": "Peru"
+        },
+        "QA": {
+            "alpha3": "QAT",
+            "currencyId": "QAR",
+            "currencyName": "Qatari riyal",
+            "continent": "Asia",
+            "id": "QA",
+            "name": "Katar"
+        },
+        "KN": {
+            "alpha3": "KNA",
+            "currencyId": "XCD",
+            "currencyName": "East Caribbean dollar",
+            "continent": "North America",
+            "id": "KN",
+            "name": "Saint Kitts and Nevis"
+        },
+        "ST": {
+            "currencyId": "STD",
+            "currencyName": "Sao Tome and Principe dobra",
+            "name": "Wyspy Świętego Tomasza i Książęca",
+            "alpha3": "STP",
+            "id": "ST",
+            "continent": "Africa"
+        },
+        "SL": {
+            "currencyId": "SLL",
+            "currencyName": "Sierra Leonean leone",
+            "name": "Sierra Leone",
+            "alpha3": "SLE",
+            "id": "SL",
+            "continent": "Africa"
+        },
+        "SO": {
+            "alpha3": "SOM",
+            "currencyId": "SOS",
+            "currencyName": "Somali shilling",
+            "continent": "Africa",
+            "id": "SO",
+            "name": "Somalia"
+        },
+        "SD": {
+            "currencyId": "SDG",
+            "currencyName": "Sudanese pound",
+            "name": "Sudan",
+            "alpha3": "SDN",
+            "id": "SD",
+            "continent": "Africa"
+        },
+        "SY": {
+            "alpha3": "SYR",
+            "currencyId": "SYP",
+            "currencyName": "Syrian pound",
+            "continent": "Asia",
+            "id": "SY",
+            "name": "Syria"
+        },
+        "TG": {
+            "currencyId": "XOF",
+            "currencyName": "West African CFA franc",
+            "name": "Togo",
+            "alpha3": "TGO",
+            "id": "TG",
+            "continent": "Africa"
+        },
+        "TM": {
+            "currencyId": "TMT",
+            "currencyName": "Turkmenistan manat",
+            "name": "Turkmenistan",
+            "alpha3": "TKM",
+            "id": "TM",
+            "continent": "Asia"
+        },
+        "GB": {
+            "alpha3": "GBR",
+            "currencyId": "GBP",
+            "currencyName": "British pound",
+            "continent": "Europe",
+            "id": "GB",
+            "name": "Wielka Brytania"
+        },
+        "VE": {
+            "currencyId": "VEF",
+            "currencyName": "Venezuelan bolivar",
+            "name": "Wenezuela",
+            "alpha3": "VEN",
+            "id": "VE",
+            "continent": "South America"
+        },
+        "AD": {
+            "alpha3": "AND",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "AD",
+            "name": "Andora"
+        },
+        "AM": {
+            "currencyId": "AMD",
+            "currencyName": "Armenian dram",
+            "name": "Armenia",
+            "alpha3": "ARM",
+            "id": "AM",
+            "continent": "Asia"
+        },
+        "BS": {
+            "alpha3": "BHS",
+            "currencyId": "BSD",
+            "currencyName": "Bahamian dollar",
+            "continent": "North America",
+            "id": "BS",
+            "name": "Bahamy"
+        },
+        "BE": {
+            "alpha3": "BEL",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "BE",
+            "name": "Belgia"
+        },
+        "BA": {
+            "alpha3": "BIH",
+            "currencyId": "BAM",
+            "currencyName": "Bosnia and Herzegovina konvertibilna marka",
+            "continent": "Europe",
+            "id": "BA",
+            "name": "Bośnia i Hercegowina"
+        },
+        "BF": {
+            "currencyId": "XOF",
+            "currencyName": "West African CFA franc",
+            "name": "Burkina Faso",
+            "alpha3": "BFA",
+            "id": "BF",
+            "continent": "Africa"
+        },
+        "KY": {
+            "alpha3": "CYM",
+            "currencyId": "KYD",
+            "currencyName": "Cayman Islands dollar",
+            "continent": "North America",
+            "id": "KY",
+            "name": "Kajmany"
+        },
+        "CO": {
+            "alpha3": "COL",
+            "currencyId": "COP",
+            "currencyName": "Colombian peso",
+            "continent": "South America",
+            "id": "CO",
+            "name": "Kolumbia"
+        },
+        "CI": {
+            "currencyId": "XOF",
+            "currencyName": "West African CFA franc",
+            "name": "Wybrzeże Kości Słoniowej",
+            "alpha3": "CIV",
+            "id": "CI",
+            "continent": "Africa"
+        },
+        "DK": {
+            "alpha3": "DNK",
+            "currencyId": "DKK",
+            "currencyName": "Danish krone",
+            "continent": "Europe",
+            "id": "DK",
+            "name": "Dania"
+        },
+        "EG": {
+            "alpha3": "EGY",
+            "currencyId": "EGP",
+            "currencyName": "Egyptian pound",
+            "continent": "Africa",
+            "id": "EG",
+            "name": "Egipt"
+        },
+        "ET": {
+            "currencyId": "ETB",
+            "currencyName": "Ethiopian birr",
+            "name": "Etiopia",
+            "alpha3": "ETH",
+            "id": "ET",
+            "continent": "Africa"
+        },
+        "GA": {
+            "currencyId": "XAF",
+            "currencyName": "Central African CFA franc",
+            "name": "Gabon",
+            "alpha3": "GAB",
+            "id": "GA",
+            "continent": "Africa"
+        },
+        "GI": {
+            "alpha3": "GIB",
+            "currencyId": "GIP",
+            "currencyName": "Gibraltar pound",
+            "continent": "Europe",
+            "id": "GI",
+            "name": "Gibraltar"
+        },
+        "GW": {
+            "currencyId": "XOF",
+            "currencyName": "West African CFA franc",
+            "name": "Gwinea-Bissau",
+            "alpha3": "GNB",
+            "id": "GW",
+            "continent": "Africa"
+        },
+        "HU": {
+            "alpha3": "HUN",
+            "currencyId": "HUF",
+            "currencyName": "Hungarian forint",
+            "continent": "Europe",
+            "id": "HU",
+            "name": "Węgry"
+        },
+        "IQ": {
+            "currencyId": "IQD",
+            "currencyName": "Iraqi dinar",
+            "name": "Irak",
+            "alpha3": "IRQ",
+            "id": "IQ",
+            "continent": "Asia"
+        },
+        "JP": {
+            "alpha3": "JPN",
+            "currencyId": "JPY",
+            "currencyName": "Japanese yen",
+            "continent": "Asia",
+            "id": "JP",
+            "name": "Japonia"
+        },
+        "KP": {
+            "alpha3": "PRK",
+            "currencyId": "KPW",
+            "currencyName": "North Korean won",
+            "continent": "Asia",
+            "id": "KP",
+            "name": "Korea Północna"
+        },
+        "LV": {
+            "alpha3": "LVA",
+            "currencyId": "LVL",
+            "currencyName": "Latvian lats",
+            "continent": "Europe",
+            "id": "LV",
+            "name": "Łotwa"
+        },
+        "LI": {
+            "alpha3": "LIE",
+            "currencyId": "CHF",
+            "currencyName": "Swiss Franc",
+            "continent": "Europe",
+            "id": "LI",
+            "name": "Liechtenstein"
+        },
+        "MG": {
+            "currencyId": "MGA",
+            "currencyName": "Malagasy ariary",
+            "name": "Madagaskar",
+            "alpha3": "MDG",
+            "id": "MG",
+            "continent": "Africa"
+        },
+        "MT": {
+            "alpha3": "MLT",
+            "currencyId": "EUR",
+            "currencyName": "European Euro",
+            "continent": "Europe",
+            "id": "MT",
+            "name": "Malta"
+        },
+        "MD": {
+            "currencyId": "MDL",
+            "currencyName": "Moldovan leu",
+            "name": "Mołdawia",
+            "alpha3": "MDA",
+            "id": "MD",
+            "continent": "Europe"
+        },
+        "MA": {
+            "currencyId": "MAD",
+            "currencyName": "Moroccan dirham",
+            "name": "Maroko",
+            "alpha3": "MAR",
+            "id": "MA",
+            "continent": "Africa"
+        },
+        "NP": {
+            "alpha3": "NPL",
+            "currencyId": "NPR",
+            "currencyName": "Nepalese rupee",
+            "continent": "Asia",
+            "id": "NP",
+            "name": "Nepal"
+        },
+        "NE": {
+            "currencyId": "XOF",
+            "currencyName": "West African CFA franc",
+            "name": "Niger",
+            "alpha3": "NER",
+            "id": "NE",
+            "continent": "Africa"
+        },
+        "PW": {
+            "alpha3": "PLW",
+            "currencyId": "USD_Australia",
+            "currencyName": "U.S. Dollar",
+            "continent": "Australia and Oceania",
+            "id": "PW",
+            "name": "Palau"
+        },
+        "PH": {
+            "alpha3": "PHL",
+            "currencyId": "PHP",
+            "currencyName": "Philippine peso",
+            "continent": "Asia",
+            "id": "PH",
+            "name": "Filipiny"
+        },
+        "RO": {
+            "alpha3": "ROU",
+            "currencyId": "RON",
+            "currencyName": "Romanian leu",
+            "continent": "Europe",
+            "id": "RO",
+            "name": "Rumunia"
+        },
+        "LC": {
+            "alpha3": "LCA",
+            "currencyId": "XCD",
+            "currencyName": "East Caribbean dollar",
+            "continent": "North America",
+            "id": "LC",
+            "name": "Saint Lucia"
+        },
+        "SA": {
+            "alpha3": "SAU",
+            "currencyId": "SAR",
+            "currencyName": "Saudi riyal",
+            "continent": "Asia",
+            "id": "SA",
+            "name": "Arabia Saudyjska"
+        },
+        "SG": {
+            "alpha3": "SGP",
+            "currencyId": "SGD",
+            "currencyName": "Singapore dollar",
+            "continent": "Asia",
+            "id": "SG",
+            "name": "Singapur"
+        },
+        "ZA": {
+            "alpha3": "ZAF",
+            "currencyId": "ZAR",
+            "currencyName": "South African rand",
+            "continent": "Africa",
+            "id": "ZA",
+            "name": "Republika Południowej Afryki"
+        },
+        "SR": {
+            "alpha3": "SUR",
+            "currencyId": "SRD",
+            "currencyName": "Surinamese dollar",
+            "continent": "South America",
+            "id": "SR",
+            "name": "Surinam"
+        },
+        "TW": {
+            "alpha3": "TWN",
+            "currencyId": "TWD",
+            "currencyName": "New Taiwan dollar",
+            "continent": "Asia",
+            "id": "TW",
+            "name": "Tajwan"
+        },
+        "TO": {
+            "currencyId": "TOP",
+            "currencyName": "Paanga",
+            "name": "Tonga",
+            "alpha3": "TON",
+            "id": "TO",
+            "continent": "Australia and Oceania"
+        },
+        "TV": {
+            "alpha3": "TUV",
+            "currencyId": "AUD",
+            "currencyName": "Australian dollar",
+            "continent": "Australia and Oceania",
+            "id": "TV",
+            "name": "Tuvalu"
+        },
+        "US": {
+            "alpha3": "USA",
+            "currencyId": "USD",
+            "currencyName": "United States dollar",
+            "continent": "North America",
+            "id": "US",
+            "name": "Stany Zjednoczone"
+        },
+        "VN": {
+            "alpha3": "VNM",
+            "currencyId": "VND",
+            "currencyName": "Vietnamese dong",
+            "continent": "Asia",
+            "id": "VN",
+            "name": "Wietnam"
+        },
+        "AL": {
+            "alpha3": "ALB",
+            "currencyId": "ALL",
+            "currencyName": "Albanian lek",
+            "continent": "Europe",
+            "id": "AL",
+            "name": "Albania"
+        },
+        "AG": {
+            "alpha3": "ATG",
+            "currencyId": "XCD",
+            "currencyName": "East Caribbean dollar",
+            "continent": "North America",
+            "id": "AG",
+            "name": "Antigua i Barbuda"
+        },
+        "AT": {
+            "alpha3": "AUT",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "AT",
+            "name": "Austria"
+        },
+        "BB": {
+            "alpha3": "BRB",
+            "currencyId": "BBD",
+            "currencyName": "Barbadian dollar",
+            "continent": "North America",
+            "id": "BB",
+            "name": "Barbados"
+        },
+        "BT": {
+            "currencyId": "BTN",
+            "currencyName": "Bhutanese ngultrum",
+            "name": "Bhutan",
+            "alpha3": "BTN",
+            "id": "BT",
+            "continent": "Asia"
+        },
+        "BN": {
+            "alpha3": "BRN",
+            "currencyId": "BND",
+            "currencyName": "Brunei dollar",
+            "continent": "Asia",
+            "id": "BN",
+            "name": "Brunei"
+        },
+        "CM": {
+            "currencyId": "XAF",
+            "currencyName": "Central African CFA franc",
+            "name": "Kamerun",
+            "alpha3": "CMR",
+            "id": "CM",
+            "continent": "Africa"
+        },
+        "CL": {
+            "alpha3": "CHL",
+            "currencyId": "CLP",
+            "currencyName": "Chilean peso",
+            "continent": "South America",
+            "id": "CL",
+            "name": "Chile"
+        },
+        "CD": {
+            "currencyId": "CDF",
+            "currencyName": "Congolese franc",
+            "name": "Demokratyczna Republika Konga",
+            "alpha3": "COD",
+            "id": "CD",
+            "continent": "Africa"
+        },
+        "CY": {
+            "alpha3": "CYP",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "CY",
+            "name": "Cypr"
+        },
+        "DO": {
+            "alpha3": "DOM",
+            "currencyId": "DOP",
+            "currencyName": "Dominican peso",
+            "continent": "North America",
+            "id": "DO",
+            "name": "Dominikana"
+        },
+        "ER": {
+            "currencyId": "ERN",
+            "currencyName": "Eritrean nakfa",
+            "name": "Erytrea",
+            "alpha3": "ERI",
+            "id": "ER",
+            "continent": "Africa"
+        },
+        "FR": {
+            "alpha3": "FRA",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "FR",
+            "name": "Francja"
+        },
+        "DE": {
+            "alpha3": "DEU",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "DE",
+            "name": "Niemcy"
+        },
+        "GT": {
+            "alpha3": "GTM",
+            "currencyId": "GTQ",
+            "currencyName": "Guatemalan quetzal",
+            "continent": "North America",
+            "id": "GT",
+            "name": "Gwatemala"
+        },
+        "HN": {
+            "alpha3": "HND",
+            "currencyId": "HNL",
+            "currencyName": "Honduran lempira",
+            "continent": "North America",
+            "id": "HN",
+            "name": "Honduras"
+        },
+        "ID": {
+            "alpha3": "IDN",
+            "currencyId": "IDR",
+            "currencyName": "Indonesian rupiah",
+            "continent": "Asia",
+            "id": "ID",
+            "name": "Indonesia"
+        },
+        "IT": {
+            "alpha3": "ITA",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "IT",
+            "name": "Włochy"
+        },
+        "KE": {
+            "alpha3": "KEN",
+            "currencyId": "KES",
+            "currencyName": "Kenyan shilling",
+            "continent": "Africa",
+            "id": "KE",
+            "name": "Kenia"
+        },
+        "KG": {
+            "alpha3": "KGZ",
+            "currencyId": "KGS",
+            "currencyName": "Kyrgyzstani som",
+            "continent": "Asia",
+            "id": "KG",
+            "name": "Kirgistan"
+        },
+        "LR": {
+            "alpha3": "LBR",
+            "currencyId": "LRD",
+            "currencyName": "Liberian dollar",
+            "continent": "Africa",
+            "id": "LR",
+            "name": "Liberia"
+        },
+        "MO": {
+            "currencyId": "MOP",
+            "currencyName": "Macanese pataca",
+            "name": "Macau",
+            "alpha3": "MAC",
+            "id": "MO",
+            "continent": "Asia"
+        },
+        "MV": {
+            "currencyId": "MVR",
+            "currencyName": "Maldivian rufiyaa",
+            "name": "Malediwy",
+            "alpha3": "MDV",
+            "id": "MV",
+            "continent": "Asia"
+        },
+        "MX": {
+            "alpha3": "MEX",
+            "currencyId": "MXN",
+            "currencyName": "Mexican peso",
+            "continent": "North America",
+            "id": "MX",
+            "name": "Meksyk"
+        },
+        "ME": {
+            "alpha3": "MNE",
+            "currencyId": "EUR",
+            "currencyName": "European Euro",
+            "continent": "Europe",
+            "id": "ME",
+            "name": "Czarnogóra"
+        },
+        "NA": {
+            "alpha3": "NAM",
+            "currencyId": "NAD",
+            "currencyName": "Namibian dollar",
+            "continent": "Africa",
+            "id": "NA",
+            "name": "Namibia"
+        },
+        "NZ": {
+            "alpha3": "NZL",
+            "currencyId": "NZD",
+            "currencyName": "New Zealand dollar",
+            "continent": "Australia and Oceania",
+            "id": "NZ",
+            "name": "Nowa Zelandia"
+        },
+        "OM": {
+            "alpha3": "OMN",
+            "currencyId": "OMR",
+            "currencyName": "Omani rial",
+            "continent": "Asia",
+            "id": "OM",
+            "name": "Oman"
+        },
+        "PY": {
+            "alpha3": "PRY",
+            "currencyId": "PYG",
+            "currencyName": "Paraguayan guarani",
+            "continent": "South America",
+            "id": "PY",
+            "name": "Paragwaj"
+        },
+        "PR": {
+            "alpha3": "PRI",
+            "currencyId": "USD",
+            "currencyName": "U.S. Dollar",
+            "continent": "North America",
+            "id": "PR",
+            "name": "Portoryko"
+        },
+        "SH": {
+            "alpha3": "SHN",
+            "currencyId": "SHP",
+            "currencyName": "Saint Helena pound",
+            "continent": "Africa",
+            "id": "SH",
+            "name": "Wyspa Świętej Heleny"
+        },
+        "SM": {
+            "alpha3": "SMR",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "SM",
+            "name": "San Marino"
+        },
+        "SC": {
+            "alpha3": "SYC",
+            "currencyId": "SCR",
+            "currencyName": "Seychellois rupee",
+            "continent": "Africa",
+            "id": "SC",
+            "name": "Seszele"
+        },
+        "SB": {
+            "alpha3": "SLB",
+            "currencyId": "SBD",
+            "currencyName": "Solomon Islands dollar",
+            "continent": "Australia and Oceania",
+            "id": "SB",
+            "name": "Wyspy Salomona"
+        },
+        "LK": {
+            "alpha3": "LKA",
+            "currencyId": "LKR",
+            "currencyName": "Sri Lankan rupee",
+            "continent": "Asia",
+            "id": "LK",
+            "name": "Sri Lanka"
+        },
+        "CH": {
+            "alpha3": "CHE",
+            "currencyId": "CHF",
+            "currencyName": "Swiss franc",
+            "continent": "Europe",
+            "id": "CH",
+            "name": "Szwajcaria"
+        },
+        "TH": {
+            "alpha3": "THA",
+            "currencyId": "THB",
+            "currencyName": "Thai baht",
+            "continent": "Asia",
+            "id": "TH",
+            "name": "Tajlandia"
+        },
+        "TR": {
+            "currencyId": "TRY",
+            "currencyName": "Turkish new lira",
+            "name": "Turcja",
+            "alpha3": "TUR",
+            "id": "TR",
+            "continent": "Asia"
+        },
+        "AE": {
+            "currencyId": "AED",
+            "currencyName": "UAE dirham",
+            "name": "Zjednoczone Emiraty Arabskie",
+            "alpha3": "ARE",
+            "id": "AE",
+            "continent": "Asia"
+        },
+        "VU": {
+            "currencyId": "VUV",
+            "currencyName": "Vanuatu vatu",
+            "name": "Vanuatu",
+            "alpha3": "VUT",
+            "id": "VU",
+            "continent": "Australia and Oceania"
+        },
+        "ZM": {
+            "currencyId": "ZMW",
+            "currencyName": "Zambian kwacha",
+            "name": "Zambia",
+            "alpha3": "ZMB",
+            "id": "ZM",
+            "continent": "Africa"
+        },
+        "AO": {
+            "currencyId": "AOA",
+            "currencyName": "Angolan kwanza",
+            "name": "Angola",
+            "alpha3": "AGO",
+            "id": "AO",
+            "continent": "Africa"
+        },
+        "AW": {
+            "alpha3": "ABW",
+            "currencyId": "AWG",
+            "currencyName": "Aruban florin",
+            "continent": "North America",
+            "id": "AW",
+            "name": "Aruba"
+        },
+        "BH": {
+            "currencyId": "BHD",
+            "currencyName": "Bahraini dinar",
+            "name": "Bahrajn",
+            "alpha3": "BHR",
+            "id": "BH",
+            "continent": "Asia"
+        },
+        "BZ": {
+            "alpha3": "BLZ",
+            "currencyId": "BZD",
+            "currencyName": "Belize dollar",
+            "continent": "North America",
+            "id": "BZ",
+            "name": "Belize"
+        },
+        "BW": {
+            "alpha3": "BWA",
+            "currencyId": "BWP",
+            "currencyName": "Botswana pula",
+            "continent": "Africa",
+            "id": "BW",
+            "name": "Botswana"
+        },
+        "BI": {
+            "currencyId": "BIF",
+            "currencyName": "Burundi franc",
+            "name": "Burundi",
+            "alpha3": "BDI",
+            "id": "BI",
+            "continent": "Africa"
+        },
+        "CF": {
+            "currencyId": "XAF",
+            "currencyName": "Central African CFA franc",
+            "name": "Republika Środkowoafrykańska",
+            "alpha3": "CAF",
+            "id": "CF",
+            "continent": "Africa"
+        },
+        "KM": {
+            "currencyId": "KMF",
+            "currencyName": "Comorian franc",
+            "name": "Komory",
+            "alpha3": "COM",
+            "id": "KM",
+            "continent": "Africa"
+        },
+        "HR": {
+            "alpha3": "HRV",
+            "currencyId": "HRK",
+            "currencyName": "Croatian kuna",
+            "continent": "Europe",
+            "id": "HR",
+            "name": "Chorwacja"
+        },
+        "DJ": {
+            "currencyId": "DJF",
+            "currencyName": "Djiboutian franc",
+            "name": "Dżibuti",
+            "alpha3": "DJI",
+            "id": "DJ",
+            "continent": "Africa"
+        },
+        "SV": {
+            "alpha3": "SLV",
+            "currencyId": "USD",
+            "currencyName": "U.S. Dollar",
+            "continent": "North America",
+            "id": "SV",
+            "name": "Salwador"
+        },
+        "FJ": {
+            "alpha3": "FJI",
+            "currencyId": "FJD",
+            "currencyName": "Fijian dollar",
+            "continent": "Australia and Oceania",
+            "id": "FJ",
+            "name": "Fidżi"
+        },
+        "GM": {
+            "currencyId": "GMD",
+            "currencyName": "Gambian dalasi",
+            "name": "Gambia",
+            "alpha3": "GMB",
+            "id": "GM",
+            "continent": "Africa"
+        },
+        "GR": {
+            "alpha3": "GRC",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "GR",
+            "name": "Grecja"
+        },
+        "GY": {
+            "alpha3": "GUY",
+            "currencyId": "GYD",
+            "currencyName": "Guyanese dollar",
+            "continent": "South America",
+            "id": "GY",
+            "name": "Gujana"
+        },
+        "IS": {
+            "alpha3": "ISL",
+            "currencyId": "ISK",
+            "currencyName": "Icelandic króna",
+            "continent": "Europe",
+            "id": "IS",
+            "name": "Islandia"
+        },
+        "IE": {
+            "alpha3": "IRL",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "IE",
+            "name": "Irlandia"
+        },
+        "JO": {
+            "currencyId": "JOD",
+            "currencyName": "Jordanian dinar",
+            "name": "Jordania",
+            "alpha3": "JOR",
+            "id": "JO",
+            "continent": "Asia"
+        },
+        "KR": {
+            "alpha3": "KOR",
+            "currencyId": "KRW",
+            "currencyName": "South Korean won",
+            "continent": "Asia",
+            "id": "KR",
+            "name": "Korea Południowa"
+        },
+        "LB": {
+            "alpha3": "LBN",
+            "currencyId": "LBP",
+            "currencyName": "Lebanese lira",
+            "continent": "Asia",
+            "id": "LB",
+            "name": "Liban"
+        },
+        "MW": {
+            "currencyId": "MWK",
+            "currencyName": "Malawian kwacha",
+            "name": "Malawi",
+            "alpha3": "MWI",
+            "id": "MW",
+            "continent": "Africa"
+        },
+        "MR": {
+            "currencyId": "MRO",
+            "currencyName": "Mauritanian ouguiya",
+            "name": "Mauretania",
+            "alpha3": "MRT",
+            "id": "MR",
+            "continent": "Africa"
+        },
+        "MC": {
+            "alpha3": "MCO",
+            "currencyId": "EUR",
+            "currencyName": "European Euro",
+            "continent": "Europe",
+            "id": "MC",
+            "name": "Monako"
+        },
+        "MZ": {
+            "currencyId": "MZN",
+            "currencyName": "Mozambican metical",
+            "name": "Mozambik",
+            "alpha3": "MOZ",
+            "id": "MZ",
+            "continent": "Africa"
+        },
+        "NL": {
+            "alpha3": "NLD",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "NL",
+            "name": "Holandia"
+        },
+        "NG": {
+            "alpha3": "NGA",
+            "currencyId": "NGN",
+            "currencyName": "Nigerian naira",
+            "continent": "Africa",
+            "id": "NG",
+            "name": "Nigeria"
+        },
+        "PA": {
+            "alpha3": "PAN",
+            "currencyId": "PAB",
+            "currencyName": "Panamanian balboa",
+            "continent": "North America",
+            "id": "PA",
+            "name": "Panama"
+        },
+        "PL": {
+            "alpha3": "POL",
+            "currencyId": "PLN",
+            "currencyName": "Polish zloty",
+            "continent": "Europe",
+            "id": "PL",
+            "name": "Polska"
+        },
+        "RU": {
+            "alpha3": "RUS",
+            "currencyId": "RUB",
+            "currencyName": "Russian ruble",
+            "continent": "Europe",
+            "id": "RU",
+            "name": "Rosja"
+        },
+        "VC": {
+            "alpha3": "VCT",
+            "currencyId": "XCD",
+            "currencyName": "East Caribbean dollar",
+            "continent": "North America",
+            "id": "VC",
+            "name": "Saint Vincent i Grenadyny"
+        },
+        "SN": {
+            "currencyId": "XOF",
+            "currencyName": "West African CFA franc",
+            "name": "Senegal",
+            "alpha3": "SEN",
+            "id": "SN",
+            "continent": "Africa"
+        },
+        "SK": {
+            "alpha3": "SVK",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "SK",
+            "name": "Słowacja"
+        },
+        "SS": {
+            "currencyId": "SDG",
+            "currencyName": "Sudanese pound",
+            "name": "Sudan Południowy",
+            "alpha3": "SSD",
+            "id": "SS",
+            "continent": "Africa"
+        },
+        "SZ": {
+            "currencyId": "SZL",
+            "currencyName": "Swazi lilangeni",
+            "name": "Suazi",
+            "alpha3": "SWZ",
+            "id": "SZ",
+            "continent": "Africa"
+        },
+        "TJ": {
+            "currencyId": "TJS",
+            "currencyName": "Tajikistani somoni",
+            "name": "Tadżykistan",
+            "alpha3": "TJK",
+            "id": "TJ",
+            "continent": "Asia"
+        },
+        "TT": {
+            "alpha3": "TTO",
+            "currencyId": "TTD",
+            "currencyName": "Trinidad and Tobago dollar",
+            "continent": "North America",
+            "id": "TT",
+            "name": "Trinidad i Tobago"
+        },
+        "UG": {
+            "alpha3": "UGA",
+            "currencyId": "UGX",
+            "currencyName": "Ugandan shilling",
+            "continent": "Africa",
+            "id": "UG",
+            "name": "Uganda"
+        },
+        "UY": {
+            "alpha3": "URY",
+            "currencyId": "UYU",
+            "currencyName": "Uruguayan peso",
+            "continent": "South America",
+            "id": "UY",
+            "name": "Urugwaj"
+        },
+        "WF": {
+            "currencyId": "XPF",
+            "currencyName": "CFP franc",
+            "name": "Wallis and Futuna",
+            "alpha3": "WLF",
+            "id": "WF",
+            "continent": "Australia and Oceania"
+        },
+        "LT": {
+            "alpha3": "LTU",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "LT",
+            "name": "Litwa"
+        },
+        "XK": {
+            "alpha3": "UNK",
+            "currencyId": "EUR",
+            "currencyName": "European euro",
+            "continent": "Europe",
+            "id": "XK",
+            "name": "Kosowo"
+        },
+        "TL": {
+            "alpha3": "TLS",
+            "currencyId": "USD_Asia",
+            "currencyName": "U.S. Dollar",
+            "continent": "Asia",
+            "id": "EC",
+            "name": "Timor Wschodni"
+        },
+        "GQ": {
+            "currencyId": "XAF",
+            "currencyName": "Central African CFA franc",
+            "name": "Gwinea Równikowa",
+            "alpha3": "GNQ",
+            "id": "GQ",
+            "continent": "Africa"
+        },
+        "BM": {
+            "currencyId": "BMD",
+            "currencyName": "Bermudan Dollar",
+            "name": "Bermudy",
+            "alpha3": "BMU",
+            "id": "BM",
+            "continent": "North America"
+        },
+        "IM": {
+            "alpha3": "IMN",
+            "currencyId": "GBP",
+            "currencyName": "British pound",
+            "continent": "Europe",
+            "id": "IM",
+            "name": "Wyspa Man"
+        },
+        "IM1": {
+            "alpha3": "IMN",
+            "currencyId": "IMP",
+            "currencyName": "Manx pound",
+            "continent": "Europe",
+            "id": "IM1",
+            "name": "Wyspa Man"
+        },
+        "JE": {
+            "alpha3": "JEY",
+            "currencyId": "GBP",
+            "currencyName": "British pound",
+            "continent": "Europe",
+            "id": "JE",
+            "name": "Jersey"
+        },
+        "JE1": {
+            "alpha3": "JEY",
+            "currencyId": "JEP",
+            "currencyName": "Jersey Pound",
+            "continent": "Europe",
+            "id": "JE1",
+            "name": "Jersey"
+        },
+        "GG": {
+            "alpha3": "GGY",
+            "currencyId": "GGP",
+            "currencyName": "Guernsey Pound",
+            "continent": "Europe",
+            "id": "GG",
+            "name": "Guernsey"
+        },
+        "GG1": {
+            "alpha3": "GGY",
+            "currencyId": "GBP",
+            "currencyName": "British pound",
+            "continent": "Europe",
+            "id": "GG1",
+            "name": "Guernsey"
+        } ,
+        "FK": {
+            "alpha3": "FLK",
+            "currencyId": "FKP",
+            "currencyName": "Falkland Islands Pound",
+            "continent": "South America",
+            "id": "FK",
+            "name": "Falklandy"
+        },
+        "FK1": {
+            "alpha3": "GGY",
+            "currencyId": "GBP",
+            "currencyName": "British pound",
+            "continent": "South America",
+            "id": "FK1",
+            "name": "Falklandy"
+        } ,
+        "CV": {
+            "alpha3": "CPV",
+            "currencyId": "CVE",
+            "currencyName": "Cape Verdean Escudo",
+            "continent": "Africa",
+            "id": "CV",
+            "name": "Republika Zielonego Przylądka"
+        } ,
+        "ZW": {
+            "alpha3": "ZWE",
+            "currencyId": "ZWL",
+            "currencyName": "Zimbabwean Dollar",
+            "continent": "Africa",
+            "id": "ZW",
+            "name": "Zimbabwe"
+        }
+}
