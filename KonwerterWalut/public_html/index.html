@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Panel do przeliczania walut</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/styleCSS.css" rel="stylesheet">
+        <script src="JS/konwerterWalut.js"></script>
+    </head>
+    <body>
+        <div id="glownyPanel">
+            <div id="naglowek_panelu">
+                <h1 id="tytul">Konwerter walut</h1>
+            </div>
+            <div id="panel">
+                <h2>Panel do przeliczania walut</h2>
+                <div id="panele">
+                    <div id="panelOd" class="paneleWalut">
+                        <h3>Z jakiej waluty?</h3>
+                        <div id="formularzWalutyOd" class="formularze">
+                            <div id="kwota">
+                                <label>Wartość: <input placeholder="Wpisz kwotę"  id="wartosc" type="number" min="0" step="0.01"></label><br><br>
+                             </div>   
+                            <div>
+                                <div class="kontynenty">
+                                    <label for="kontynentOd">Kontynent:</label>
+                                    <select class="listaKontynent" id="kontynentOd" disabled>
+                                        <option value="wybierzKontynent">Wybierz Kontynent</option>
+                                        <option value="North America">Ameryka Północna</option>
+                                        <option value="South America">Ameryka Południowa</option>
+                                        <option value="Africa">Afryka</option>
+                                        <option value="Europe">Europa</option>
+                                        <option value="Asia">Azja</option>
+                                        <option value="Australia and Oceania">Australia i Oceania</option>
+                                    </select>
+                                </div>
+                                <div class="waluty">
+                                    <label for="walutaOd">Waluta:</label>
+                                    <select class="listaWalut" id="walutaOd" disabled>
+                                        <option value="wybierzWalute">Wybierz walutę</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="panelKrajowWalutyOd" class="paneleKrajow">
+                            <h3 id="walutaKrajeOd">Lista Krajów</h3>
+                            <ul id="krajeWalutaOd">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="panelDo" class="paneleWalut">
+                        <h3>Na jaką walutę?</h3>
+                        <div id="formularzWalutyDo" class="formularze">
+                            <div id="panelWalutyDo">
+                                <div class="kontynenty">
+                                    <label for="kontynentDo">Kontynent:</label>
+                                    <select class="listaKontynent" id="kontynentDo" disabled>
+                                        <option value="wybierzKontynent">Wybierz Kontynent</option>
+                                        <option value="North America">Ameryka Północna</option>
+                                        <option value="South America">Ameryka Południowa</option>
+                                        <option value="Africa">Afryka</option>
+                                        <option value="Europe">Europa</option>
+                                        <option value="Asia">Azja</option>
+                                        <option value="Australia and Oceania">Australia i Oceania</option>
+                                    </select>
+                                </div>
+                                <div class="waluty">
+                                    <label for="walutaDo">Waluta:</label>
+                                    <select class="listaWalut" id="walutaDo" disabled>
+                                        <option value="wybierzWalute">Wybierz walutę</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="panelKrajowWalutyDo" class="paneleKrajow">
+                            <h3 id="walutaKrajeDo">Lista Krajów</h3>
+                            <ul id="krajeWalutaDo">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="przyciskOblicz">
+                    <button id="oblicz" disabled>Przelicz waluty</button>
+                </div>
+            </div>
+            <div id='panelWyniku'>
+                <p id="wynik"></p>
+            </div>
+        </div>
+    </body>
+</html>
