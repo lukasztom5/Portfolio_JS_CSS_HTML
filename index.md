@@ -5,6 +5,8 @@ Projekty tworzone przy użyciu **HTML**, **CSS** i **JavaScript**. Używaną są
 ### Linki do projektów
 1. [Konwerter Temperatur](https://github.com/lukasztom5/Portfolio_JS_CSS_HTML/tree/gh-pages/KonwerterTemperatur)
 2. [Dziennik Szkolny](https://github.com/lukasztom5/Portfolio_JS_CSS_HTML/tree/gh-pages/DziennikSzkolny)
+3. [Konwerter Walut](https://github.com/lukasztom5/Portfolio_JS_CSS_HTML/tree/gh-pages/KonwerterWalut)
+
 
 
 # Informacja
